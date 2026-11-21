@@ -1,0 +1,1508 @@
+topic,question,correct_answer,student_answer,steps,approach,label,notes
+linear_equations,Solve for x: 2x + 25 = 45,10,11,"2x = 45 - 25
+2x = 22
+x = 11",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 4x + 7 = 43,9,12.5,"4x = 43 + 7
+4x = 50
+x = 12.5",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 4x = 7,1.75,0.57,x = 4 / 7 = 0.57,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 3/4 + 3/5,27/20,6/9,(3 + 3) / (4 + 5) = 6/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 4x + 14 = 62,12,19,"4x = 62 + 14
+4x = 76
+x = 19",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 3x + 2 + 4x - 4,7x - 2,5x,3 + 2 + 4 - 4 = 5x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 4x = 5,1.25,0.8,x = 4 / 5 = 0.8,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 3/5 + 2/4,11/10,5/9,(3 + 2) / (5 + 4) = 5/9,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 7x = 12,1.71,0.58,x = 7 / 12 = 0.58,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 20% of 80?,16,60,80 - 20 = 60,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/5 + 1/4,13/20,12/20,"Common denominator is 20
+(8 + 5) / 20 = 12/20",common_denominator,arithmetic_calculation_error,Calculated 8 + 5 = 12 instead of 13
+basic_algebra,Simplify: 3x + 2 + 5x - 4,8x - 2,6x,3 + 2 + 5 - 4 = 6x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/2 + 2/3,7/6,3/5,(1 + 2) / (2 + 3) = 3/5,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 5/6 + 2/3,3/2,7/9,(5 + 2) / (6 + 3) = 7/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 6x + 7 + 3x - 5,9x + 2,11x,6 + 7 + 3 - 5 = 11x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 7x + 12 = 47,5,8.43,"7x = 47 + 12
+7x = 59
+x = 8.43",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -4x = 48,-12,12,"x = 48 / 4
+x = 12",distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 30% of 160?,48,48,(30 / 100) * 160 = 48,common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 2/7,11/14,12/14,"Common denominator is 14
+(7 + 4) / 14 = 12/14",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 9 + 5x - 3,10x + 6,11x + 6,"5x + 5x = 11x, 9 - 3 = 6",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 5 + 2x - 4,7x + 1,7x + 9,Added all constants ignoring minus: 5 + 4 = 9,distribute_negative,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 3x + 8 + 2x - 6,5x + 2,5x + 14,Added all constants ignoring minus: 8 + 6 = 14,isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 6x + 7 = 55,8,4.23,"6x + 7 = 13x
+13x = 55
+x = 4.23",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 75% of 250?,187.5,175,250 - 75 = 175,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 2x + 1 + 2x - 2,4x - 1,3x,2 + 1 + 2 - 2 = 3x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 2x + 21 = 31,5,5,"2x = 31 - 21
+2x = 10
+x = 10 / 2
+x = 5",order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 2x + 23 = 29,3,1.16,"2x + 23 = 25x
+25x = 29
+x = 1.16",direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 4x + 18 = 38,5,4.5,"4x = 38 - 18
+4x = 18
+x = 4.5",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: -8x = 56,-7,7,"x = 56 / 8
+x = 7",integer_rules,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 3/4 - 1/2,1/4,2/2,(3 - 1) / (4 - 2) = 2/2 = 1,direct_subtraction,fraction_operation_error,Subtracted numerators and subtracted denominators directly
+linear_equations,Solve for x: 8x + 20 = 92,9,14,"8x = 92 + 20
+8x = 112
+x = 14",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 5x + 9 + 2x - 7,7x + 2,7x + 2,Group like terms: (5 + 2)x + (9 - 7) = 7x + 2,order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 30% of 60?,18,1800,60 * 30 = 1800,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 75% of 160?,120,85,160 - 75 = 85,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 1 + 2x - 3,6x - 2,6x - 2,Group like terms: (4 + 2)x + (1 - 3) = 6x - 2,common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 50% of 40?,20,17,50/100 * 40 = 17,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 9x = 10,1.11,0.9,x = 9 / 10 = 0.9,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 2/3 + 4/5,22/15,6/8,(2 + 4) / (3 + 5) = 6/8,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 4x + 20 = 28,2,2,"4x = 28 - 20
+4x = 8
+x = 8 / 4
+x = 2",order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 75% of 80?,60,64,75/100 * 80 = 64,scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 15% of 100?,15,15,(15 / 100) * 100 = 15,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 6x + 5 = 35,5,3.18,"6x + 5 = 11x
+11x = 35
+x = 3.18",direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 4x + 13 = 29,4,4,"4x = 29 - 13
+4x = 16
+x = 16 / 4
+x = 4",order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 75% of 120?,90,9000,120 * 75 = 9000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 40% of 80?,32,40,80 - 40 = 40,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 1 + 6x - 6,10x - 5,10x - 5,Group like terms: (4 + 6)x + (1 - 6) = 10x - 5,common_denominator,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 5 + 6x - 6,8x - 1,7x,2 + 5 + 6 - 6 = 7x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 3x + 24 = 45,7,1.67,"3x + 24 = 27x
+27x = 45
+x = 1.67",pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -9x = 54,-6,6,"x = 54 / 9
+x = 6",distribute_negative,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 2/6 + 3/5,14/15,5/11,(2 + 3) / (6 + 5) = 5/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 2/4 + 4/5,13/10,6/9,(2 + 4) / (4 + 5) = 6/9,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 40% of 120?,48,48,(40 / 100) * 120 = 48,distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 2/5 + 4/7,34/35,6/12,(2 + 4) / (5 + 7) = 6/12,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 2x = 16,8,0.12,x = 2 / 16 = 0.12,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 25% of 250?,62.5,6250,250 * 25 = 6250,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: -7x = 63,-9,9,"x = 63 / 7
+x = 9",isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 5x + 10 = 65,11,15,"5x = 65 + 10
+5x = 75
+x = 15",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 1/2 + 2/4,1,6/4,"Common denominator is 4
+(2 + 2) / 4 = 6/4",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 9x + 10 = 73,7,9.22,"9x = 73 + 10
+9x = 83
+x = 9.22",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 3x + 3 + 6x - 8,9x - 5,7x + -5,"3x + 6x = 7x, 3 - 8 = -5",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 8 + 5x - 9,9x - 1,11x + -1,"4x + 5x = 11x, 8 - 9 = -1",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 2/3 + 3/5,19/15,5/8,(2 + 3) / (3 + 5) = 5/8,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 10% of 80?,8,8,(10 / 100) * 80 = 8,order_of_operations,correct,Synthetic variation with correct logic
+percentages,Convert 3/5 into a percentage.,60%,35%,Put 3 and 5 together = 35%,concatenation,conceptual_misunderstanding,Concatenated numerator and denominator
+fractions,Evaluate: 2/3 + 3/7,23/21,5/10,(2 + 3) / (3 + 7) = 5/10,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 2x + 10 = 30,10,10,"2x = 30 - 10
+2x = 20
+x = 20 / 2
+x = 10",order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 7x = 5,0.71,1.4,x = 7 / 5 = 1.4,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: -7x = 63,-9,9,"x = 63 / 7
+x = 9",integer_rules,sign_error,Synthetic variation with sign_error logic
+percentages,What is 75% of 120?,90,88,75/100 * 120 = 88,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 5x + 20 = 80,12,11.6,"5x = 80 - 20
+5x = 58
+x = 11.6",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 25% of 200?,50,175,200 - 25 = 175,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 30% of 90?,27,2700,90 * 30 = 2700,multiply_without_dividing_100,multiplication_division_error,Omitted division by 100
+percentages,What is 75% of 100?,75,7500,100 * 75 = 7500,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 4x + 2 + 6x - 2,10x + 0,10x + 0,Group like terms: (4 + 6)x + (2 - 2) = 10x + 0,common_denominator,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 8 + 3x - 7,5x + 1,6x,2 + 8 + 3 - 7 = 6x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 3/6 + 5/7,17/14,8/13,(3 + 5) / (6 + 7) = 8/13,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 3x + 9 = 15,2,1.67,"3x = 15 - 9
+3x = 5
+x = 1.67",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/3 + 4/7,19/21,5/10,(1 + 4) / (3 + 7) = 5/10,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 5x + 19 = 54,7,7,"5x = 54 - 19
+5x = 35
+x = 35 / 5
+x = 7",step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 8x + 20 = 92,9,3.29,"8x + 20 = 28x
+28x = 92
+x = 3.29",pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 2 + 5x - 9,11x - 7,11x + 11,Added all constants ignoring minus: 2 + 9 = 11,integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 8x = 4,0.5,2,x = 8 / 4 = 2,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 3x + 4 = 13,3,5.67,"3x = 13 + 4
+3x = 17
+x = 5.67",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/4 + 3/5,11/10,24/20,"Common denominator is 20
+(10 + 12) / 20 = 24/20",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 15% of 200?,30,30,(15 / 100) * 200 = 30,distributive_property,correct,Synthetic variation with correct logic
+percentages,What is 75% of 200?,150,152,75/100 * 200 = 152,scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/3 + 1/4,7/12,2/7,(1 + 1) / (3 + 4) = 2/7,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 7x + 7 = 35,4,4.29,"7x = 35 - 7
+7x = 30
+x = 4.29",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 8x + 12 = 108,12,15,"8x = 108 + 12
+8x = 120
+x = 15",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 6x + 2 + 4x - 7,10x - 5,10x - 5,Group like terms: (6 + 4)x + (2 - 7) = 10x - 5,step_by_step_algebra,correct,Synthetic variation with correct logic
+percentages,What is 50% of 60?,30,10,60 - 50 = 10,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 6x + 6 = 18,2,2.33,"6x = 18 - 6
+6x = 14
+x = 2.33",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 4 + 6x - 3,10x + 1,10x + 1,Group like terms: (4 + 6)x + (4 - 3) = 10x + 1,step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 5 = 29,6,8.5,"4x = 29 + 5
+4x = 34
+x = 8.5",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 15 = 63,8,13,"6x = 63 + 15
+6x = 78
+x = 13",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 8x + 23 = 111,11,11,"8x = 111 - 23
+8x = 88
+x = 88 / 8
+x = 11",step_by_step_algebra,correct,Synthetic variation with correct logic
+fractions,Evaluate: 5/6 + 3/5,43/30,8/11,(5 + 3) / (6 + 5) = 8/11,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 30% of 80?,24,2400,80 * 30 = 2400,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 6x + 7 + 5x - 6,11x + 1,11x + 13,Added all constants ignoring minus: 7 + 6 = 13,isolate_variable,sign_error,Synthetic variation with sign_error logic
+percentages,What is 15% of 80?,12,1200,80 * 15 = 1200,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 4/7 divided by 2/3,6/7,6/7,4/7 * 3/2 = 12/14 = 6/7,invert_and_multiply,correct,Inverted second fraction and multiplied
+basic_algebra,Simplify: 4x + 5 + 4x - 5,8x + 0,8x + 0,Group like terms: (4 + 4)x + (5 - 5) = 8x + 0,order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 10% of 40?,4,400,40 * 10 = 400,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 7x + 4 = 25,3,4.14,"7x = 25 + 4
+7x = 29
+x = 4.14",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 3x + 7 + 6x - 1,9x + 6,15x,3 + 7 + 6 - 1 = 15x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 4 + 3x - 4,9x + 0,10x + 0,"6x + 3x = 10x, 4 - 4 = 0",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: -4x = 28,-7,7,"x = 28 / 4
+x = 7",isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 3x + 4 = 28,8,8.67,"3x = 28 - 4
+3x = 26
+x = 8.67",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 8x = 25,3.12,0.32,x = 8 / 25 = 0.32,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 2x + 23 = 29,3,3,"2x = 29 - 23
+2x = 6
+x = 6 / 2
+x = 3",common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 8x + 7 = 87,10,9.88,"8x = 87 - 7
+8x = 79
+x = 9.88",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/3 + 2/4,5/6,3/7,(1 + 2) / (3 + 4) = 3/7,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 3/6 + 1/4,3/4,3/4,"Common denominator is 12
+6/12 + 3/12 = 3/4",order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 2/3,7/6,3/5,(1 + 2) / (2 + 3) = 3/5,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 4x + 7 = 51,11,10.5,"4x = 51 - 7
+4x = 42
+x = 10.5",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 3x + 7 + 3x - 9,6x - 2,6x - 2,Group like terms: (3 + 3)x + (7 - 9) = 6x - 2,distributive_property,correct,Synthetic variation with correct logic
+percentages,What is 15% of 40?,6,6,(15 / 100) * 40 = 6,distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 2/3,7/6,3/5,(1 + 2) / (2 + 3) = 3/5,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 6x + 9 + 5x - 2,11x + 7,12x + 7,"6x + 5x = 12x, 9 - 2 = 7",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 3/5 + 6/7,51/35,9/12,(3 + 6) / (5 + 7) = 9/12,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 50% of 250?,125,125,(50 / 100) * 250 = 125,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 8 = 52,11,11.5,"4x = 52 - 8
+4x = 46
+x = 11.5",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 6x + 15 = 57,7,7,"6x = 57 - 15
+6x = 42
+x = 42 / 6
+x = 7",distributive_property,correct,Synthetic variation with correct logic
+percentages,What is 10% of 250?,25,23,10/100 * 250 = 23,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 6x + 3 + 5x - 7,11x - 4,11x - 4,Group like terms: (6 + 5)x + (3 - 7) = 11x - 4,distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 4 + 5x - 3,7x + 1,9x + 1,"2x + 5x = 9x, 4 - 3 = 1",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/2 + 1/4,3/4,2/6,(1 + 1) / (2 + 4) = 2/6,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 4x + 19 = 51,8,17.5,"4x = 51 + 19
+4x = 70
+x = 17.5",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/3 + 2/4,7/6,16/12,"Common denominator is 12
+(8 + 6) / 12 = 16/12",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 2x = 19,9.5,0.11,x = 2 / 19 = 0.11,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 6x + 23 = 47,4,4.17,"6x = 47 - 23
+6x = 25
+x = 4.17",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/2 + 6/7,19/14,7/9,(1 + 6) / (2 + 7) = 7/9,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 75% of 120?,90,45,120 - 75 = 45,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 5 + 3x - 2,7x + 3,10x,4 + 5 + 3 - 2 = 10x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 6 + 2x - 5,5x + 1,5x + 1,Group like terms: (3 + 2)x + (6 - 5) = 5x + 1,order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 4x + 3 + 4x - 2,8x + 1,9x,4 + 3 + 4 - 2 = 9x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/3 + 3/7,16/21,4/10,(1 + 3) / (3 + 7) = 4/10,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 75% of 80?,60,6000,80 * 75 = 6000,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 30% of 40?,12,16,30/100 * 40 = 16,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: -4x = 8,-2,2,"x = 8 / 4
+x = 2",integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 5 + 3x - 1,9x + 4,9x + 6,Added all constants ignoring minus: 5 + 1 = 6,distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 75% of 80?,60,57,75/100 * 80 = 57,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 3x + 2 + 2x - 8,5x - 6,-1x,3 + 2 + 2 - 8 = -1x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 6 + 2x - 7,8x - 1,6x + -1,"6x + 2x = 6x, 6 - 7 = -1",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 20% of 200?,40,4000,200 * 20 = 4000,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 7x + 24 = 80,8,7.86,"7x = 80 - 24
+7x = 55
+x = 7.86",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 6x + 19 = 31,2,1.24,"6x + 19 = 25x
+25x = 31
+x = 1.24",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 120?,24,100,120 - 20 = 100,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 4x + 6 = 46,10,10.5,"4x = 46 - 6
+4x = 42
+x = 10.5",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 3x + 4 + 4x - 4,7x + 0,5x + 0,"3x + 4x = 5x, 4 - 4 = 0",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 10% of 200?,20,18,10/100 * 200 = 18,scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 2/3 + 2/4,7/6,4/7,(2 + 2) / (3 + 4) = 4/7,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 6x + 1 + 6x - 5,12x - 4,8x,6 + 1 + 6 - 5 = 8x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 25% of 200?,50,54,25/100 * 200 = 54,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 75% of 120?,90,88,75/100 * 120 = 88,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 2x + 8 + 4x - 9,6x - 1,7x + -1,"2x + 4x = 7x, 8 - 9 = -1",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 3x + 24 = 57,11,2.11,"3x + 24 = 27x
+27x = 57
+x = 2.11",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 5/6 + 1/4,13/12,13/12,"Common denominator is 12
+10/12 + 3/12 = 13/12",distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/4 + 2/5,13/20,3/9,(1 + 2) / (4 + 5) = 3/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/4 + 3/5,17/20,16/20,"Common denominator is 20
+(5 + 12) / 20 = 16/20",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/6 + 4/5,29/30,5/11,(1 + 4) / (6 + 5) = 5/11,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/4 + 2/3,11/12,3/7,(1 + 2) / (4 + 3) = 3/7,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 4x + 6 + 2x - 9,6x - 3,6x + 15,Added all constants ignoring minus: 6 + 9 = 15,isolate_variable,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 4x + 5 + 3x - 9,7x - 4,7x + 14,Added all constants ignoring minus: 5 + 9 = 14,integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 6 + 5x - 9,11x - 3,8x,6 + 6 + 5 - 9 = 8x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -8x = 48,-6,6,"x = 48 / 8
+x = 6",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 15% of 60?,9,45,60 - 15 = 45,subtraction,conceptual_misunderstanding,Treated percent as direct subtraction
+fractions,Evaluate: 1/2 + 5/7,17/14,6/9,(1 + 5) / (2 + 7) = 6/9,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 2/5 + 4/7,34/35,33/35,"Common denominator is 35
+(14 + 20) / 35 = 33/35",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 5/6 + 4/7,59/42,9/13,(5 + 4) / (6 + 7) = 9/13,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 15% of 40?,6,600,40 * 15 = 600,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 2x + 3 + 5x - 7,7x - 4,7x + 10,Added all constants ignoring minus: 3 + 7 = 10,isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 2x + 11 = 21,5,16,"2x = 21 + 11
+2x = 32
+x = 16",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/5 + 1/7,19/35,3/12,(2 + 1) / (5 + 7) = 3/12,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 5x - 4 = 26,6,6,"5x = 26 + 4
+5x = 30
+x = 30 / 5
+x = 6",isolate_variable,correct,Correct inverse addition and division
+percentages,What is 25% of 40?,10,10,(25 / 100) * 40 = 10,step_by_step_algebra,correct,Synthetic variation with correct logic
+percentages,What is 15% of 80?,12,1200,80 * 15 = 1200,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 7x + 3 = 24,3,3,"7x = 24 - 3
+7x = 21
+x = 21 / 7
+x = 3",order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 15% of 80?,12,14,0.15 * 80 = 14,decimal_multiplication,arithmetic_calculation_error,Calculated 0.15 * 80 as 14 instead of 12
+linear_equations,Solve for x: 9x + 21 = 84,7,11.67,"9x = 84 + 21
+9x = 105
+x = 11.67",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 4x + 6 + 5x - 8,9x - 2,9x + 14,Added all constants ignoring minus: 6 + 8 = 14,integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 10 - 2x = 4,3,-3,"-2x = 4 - 10
+-2x = -6
+x = -3",isolate_variable,sign_error,Divided -6 by -2 and ended up with negative result instead of positive
+basic_algebra,Simplify: 4x + 3 + 5x - 1,9x + 2,9x + 2,Group like terms: (4 + 5)x + (3 - 1) = 9x + 2,distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 5 + 5x - 7,7x - 2,5x,2 + 5 + 5 - 7 = 5x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 10% of 100?,10,10,(10 / 100) * 100 = 10,common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 2/3 + 5/7,29/21,7/10,(2 + 5) / (3 + 7) = 7/10,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 2x + 8 + 5x - 6,7x + 2,7x + 14,Added all constants ignoring minus: 8 + 6 = 14,distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 40% of 40?,16,0,40 - 40 = 0,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 5x + 3 + 3x - 7,8x - 4,8x + 10,Added all constants ignoring minus: 3 + 7 = 10,isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -4x = 40,-10,10,"x = 40 / 4
+x = 10",distribute_negative,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 3/5 + 2/3,19/15,5/8,(3 + 2) / (5 + 3) = 5/8,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -9x = 18,-2,2,"x = 18 / 9
+x = 2",distribute_negative,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 1/2 + 2/3,7/6,7/6,"Common denominator is 6
+3/6 + 4/6 = 7/6",common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 3/5 divided by 2/7,21/10,6/35,3 * 2 / 5 * 7 = 6/35,direct_multiplication,fraction_operation_error,Multiplied straight across instead of multiplying by the reciprocal
+linear_equations,Solve for x: 8x + 14 = 38,3,6.5,"8x = 38 + 14
+8x = 52
+x = 6.5",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: x - 9 = 14,23,5,"x = 14 - 9
+x = 5",isolate_variable,inverse_operation_error,Subtracted 9 instead of adding 9 to undo minus 9
+basic_algebra,Simplify: 6x + 4 + 3x - 2,9x + 2,11x + 2,"6x + 3x = 11x, 4 - 2 = 2",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 6x + 5 + 3x - 5,9x + 0,9x + 10,Added all constants ignoring minus: 5 + 5 = 10,isolate_variable,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 5x + 6 + 2x - 3,7x + 3,7x + 3,Group like terms: (5 + 2)x + (6 - 3) = 7x + 3,step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 8x + 19 = 83,8,8.12,"8x = 83 - 19
+8x = 65
+x = 8.12",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 5x + 16 = 56,8,14.4,"5x = 56 + 16
+5x = 72
+x = 14.4",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 10% of 200?,20,2000,200 * 10 = 2000,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 5/6 - 1/4,7/12,8/12,10/12 - 3/12 = 8/12,common_denominator,arithmetic_calculation_error,Subtracted 10 - 3 = 8 instead of 7
+basic_algebra,Evaluate: -3^2,-9,9,(-3) * (-3) = 9,bracket_assumption,sign_error,"Assumed brackets around base, squaring negative"
+fractions,Evaluate: 1/2 + 6/7,19/14,7/9,(1 + 6) / (2 + 7) = 7/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 7x + 25 = 88,9,16.14,"7x = 88 + 25
+7x = 113
+x = 16.14",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x - 7 = 41,8,7.83,"6x = 41 + 7
+6x = 47
+x = 47/6",isolate_variable,arithmetic_calculation_error,41 + 7 miscalculated as 47 instead of 48
+basic_algebra,Simplify: 5x + 6 + 4x - 1,9x + 5,14x,5 + 6 + 4 - 1 = 14x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 24 = 79,11,20.6,"5x = 79 + 24
+5x = 103
+x = 20.6",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 4/5 + 2/3,22/15,6/8,(4 + 2) / (5 + 3) = 6/8,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/2 + 2/3,7/6,3/5,(1 + 2) / (2 + 3) = 3/5,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 9x + 12 = 75,7,6.89,"9x = 75 - 12
+9x = 62
+x = 6.89",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 6x + 25 = 55,5,13.33,"6x = 55 + 25
+6x = 80
+x = 13.33",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/3 + 1/5,13/15,3/8,(2 + 1) / (3 + 5) = 3/8,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 3x + 8 + 4x - 3,7x + 5,9x + 5,"3x + 4x = 9x, 8 - 3 = 5",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 2x + 13 = 17,2,2,"2x = 17 - 13
+2x = 4
+x = 4 / 2
+x = 2",common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 1/5,7/10,7/10,"Common denominator is 10
+5/10 + 2/10 = 7/10",distributive_property,correct,Synthetic variation with correct logic
+percentages,What is 30% of 120?,36,36,(30 / 100) * 120 = 36,order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 3x + 3 = 30,9,5,"3x + 3 = 6x
+6x = 30
+x = 5",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 3 + 3x - 2,9x + 1,7x + 1,"6x + 3x = 7x, 3 - 2 = 1",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 9 + 4x - 5,9x + 4,13x,5 + 9 + 4 - 5 = 13x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 160?,32,140,160 - 20 = 140,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4 - (x - 3),7 - x,1 - x,4 - x - 3 = 1 - x,distribute_negative,sign_error,Did not distribute minus sign to the -3
+linear_equations,Solve for x: 6x = 7,1.17,0.86,x = 6 / 7 = 0.86,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 1/5 + 1/3,8/15,8/15,"Common denominator is 15
+3/15 + 5/15 = 8/15",common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 14 = 64,10,15.6,"5x = 64 + 14
+5x = 78
+x = 15.6",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 3x = 14,4.67,0.21,x = 3 / 14 = 0.21,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 40% of 250?,100,10000,250 * 40 = 10000,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 2/6 + 4/5,17/15,6/11,(2 + 4) / (6 + 5) = 6/11,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 2/3 + 6/7,32/21,8/10,(2 + 6) / (3 + 7) = 8/10,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 4x + 3 + 4x - 2,8x + 1,9x,4 + 3 + 4 - 2 = 9x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 9 + 5x - 5,11x + 4,15x,6 + 9 + 5 - 5 = 15x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -9x = 27,-3,3,"x = 27 / 9
+x = 3",distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 25% of 160?,40,135,160 - 25 = 135,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 2x + 6 + 6x - 2,8x + 4,12x,2 + 6 + 6 - 2 = 12x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 3x + 25 = 43,6,6,"3x = 43 - 25
+3x = 18
+x = 18 / 3
+x = 6",step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 20 = 40,4,12,"5x = 40 + 20
+5x = 60
+x = 12",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 5x + 9 + 5x - 9,10x + 0,12x + 0,"5x + 5x = 12x, 9 - 9 = 0",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 4x + 23 = 55,8,19.5,"4x = 55 + 23
+4x = 78
+x = 19.5",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 4x + 12 = 36,6,6.25,"4x = 36 - 12
+4x = 25
+x = 6.25",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 10% of 60?,6,6,(10 / 100) * 60 = 6,order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -3x = 12,-4,4,"x = 12 / 3
+x = 4",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 4x + 2 + 6x - 4,10x - 2,10x - 2,Group like terms: (4 + 6)x + (2 - 4) = 10x - 2,distributive_property,correct,Synthetic variation with correct logic
+percentages,What is 25% of 160?,40,135,160 - 25 = 135,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 11 = 61,10,14.4,"5x = 61 + 11
+5x = 72
+x = 14.4",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/5 + 1/3,11/15,3/8,"2 + 1 = 3, 5 + 3 = 8 so 3/8",direct_addition,fraction_operation_error,Added numerators and denominators directly
+linear_equations,Solve for x: 2x = 3,1.5,0.67,x = 2 / 3 = 0.67,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 25% of 200?,50,5000,200 * 25 = 5000,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 50% of 250?,125,200,250 - 50 = 200,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 3/5 + 1/6,23/30,4/11,(3 + 1) / (5 + 6) = 4/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 2/6 + 2/7,13/21,13/21,"Common denominator is 42
+14/42 + 12/42 = 13/21",distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -4x = 48,-12,12,"x = 48 / 4
+x = 12",distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 7x = 12,1.71,0.58,x = 7 / 12 = 0.58,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 2x + 22 = 36,7,6.5,"2x = 36 - 22
+2x = 13
+x = 6.5",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 3x + 4y + 2x,5x + 4y,9xy,3 + 4 + 2 = 9 so 9xy,combine_all_terms,conceptual_misunderstanding,"Combined distinct variable terms 3x, 4y, and 2x into a single product"
+linear_equations,Solve for x: 6x + 23 = 65,7,14.67,"6x = 65 + 23
+6x = 88
+x = 14.67",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/4 + 2/3,7/6,7/6,"Common denominator is 12
+6/12 + 8/12 = 7/6",common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 50% of 160?,80,80,(50 / 100) * 160 = 80,order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 75% of 40?,30,3000,40 * 75 = 3000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 2x + 10 = 16,3,13,"2x = 16 + 10
+2x = 26
+x = 13",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 4x + 22 = 50,7,18,"4x = 50 + 22
+4x = 72
+x = 18",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 4x = 28,7,112,"x = 28 * 4
+x = 112",isolate_variable,inverse_operation_error,Multiplied by 4 instead of dividing by 4 to undo multiplication
+linear_equations,Solve for x: 4x + 4 = 44,10,12,"4x = 44 + 4
+4x = 48
+x = 12",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -6x = 30,-5,5,"x = 30 / 6
+x = 5",distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 3x = 6,2,0.5,x = 3 / 6 = 0.5,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 1/2 + 2/3,7/6,9/6,"Common denominator is 6
+(3 + 4) / 6 = 9/6",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/3 + 3/4,13/12,4/7,(1 + 3) / (3 + 4) = 4/7,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 4x + 6 = 30,6,6.5,"4x = 30 - 6
+4x = 26
+x = 6.5",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 5x = 11,2.2,0.45,x = 5 / 11 = 0.45,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 3x + 1 + 3x - 7,6x - 6,6x - 6,Group like terms: (3 + 3)x + (1 - 7) = 6x - 6,step_by_step_algebra,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 6x + 9 + 3x - 3,9x + 6,9x + 12,Added all constants ignoring minus: 9 + 3 = 12,integer_rules,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 2/6 + 2/4,5/6,4/10,(2 + 2) / (6 + 4) = 4/10,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 2x + 21 = 45,12,33,"2x = 45 + 21
+2x = 66
+x = 33",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 5x = 14,2.8,0.36,x = 5 / 14 = 0.36,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 3/4 + 1/7,25/28,4/11,(3 + 1) / (4 + 7) = 4/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -4x = 12,-3,3,"x = 12 / 4
+x = 3",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 8x = 17,2.12,0.47,x = 8 / 17 = 0.47,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 6x + 8 + 5x - 1,11x + 7,12x + 7,"6x + 5x = 12x, 8 - 1 = 7",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 8 + 5x - 6,10x + 2,12x + 2,"5x + 5x = 12x, 8 - 6 = 2",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 3 + 5x - 6,9x - 3,9x + 9,Added all constants ignoring minus: 3 + 6 = 9,distribute_negative,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 4/6 + 3/7,23/21,7/13,(4 + 3) / (6 + 7) = 7/13,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 2x + 1 + 6x - 2,8x - 1,7x,2 + 1 + 6 - 2 = 7x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 25% of 120?,30,95,120 - 25 = 95,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 3x + 3 = 27,8,8,"3x = 27 - 3
+3x = 24
+x = 24 / 3
+x = 8",distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Expand: -2(3x - 4),-6x + 8,-6x - 8,"-2 * 3x = -6x
+-2 * 4 = -8
+Result: -6x - 8",distributive_property,sign_error,Multiplied negative by negative (-2 * -4) and got negative 8 instead of positive 8
+linear_equations,Solve for x: 7x + 17 = 87,10,9.71,"7x = 87 - 17
+7x = 68
+x = 9.71",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 6 + 4x - 1,8x + 5,13x,4 + 6 + 4 - 1 = 13x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 50% of 120?,60,60,(50 / 100) * 120 = 60,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 3/6 + 1/3,5/6,5/6,"Common denominator is 6
+3/6 + 2/6 = 5/6",step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -9x = 27,-3,3,"x = 27 / 9
+x = 3",integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 3x + 2 + 2x - 4,5x - 2,3x,3 + 2 + 2 - 4 = 3x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 2x + 9 + 6x - 7,8x + 2,10x,2 + 9 + 6 - 7 = 10x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 75% of 100?,75,25,100 - 75 = 25,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 5x + 2 + 2x - 2,7x + 0,7x,5 + 2 + 2 - 2 = 7x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 9x + 13 = 67,6,8.89,"9x = 67 + 13
+9x = 80
+x = 8.89",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 12 = 42,5,5,"6x = 42 - 12
+6x = 30
+x = 30 / 6
+x = 5",distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 2/5 + 1/7,19/35,21/35,"Common denominator is 35
+(14 + 5) / 35 = 21/35",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 4/6 + 2/7,20/21,6/13,(4 + 2) / (6 + 7) = 6/13,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 5x + 16 = 76,12,3.62,"5x + 16 = 21x
+21x = 76
+x = 3.62",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 17 = 62,9,15.8,"5x = 62 + 17
+5x = 79
+x = 15.8",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 2x + 9 + 4x - 6,6x + 3,9x,2 + 9 + 4 - 6 = 9x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 2x + 7 + 2x - 3,4x + 4,8x,2 + 7 + 2 - 3 = 8x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/4 + 2/7,15/28,3/11,(1 + 2) / (4 + 7) = 3/11,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 2x + 18 = 34,8,7.5,"2x = 34 - 18
+2x = 15
+x = 7.5",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 4 + 5x - 5,9x - 1,11x + -1,"4x + 5x = 11x, 4 - 5 = -1",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 2/4 + 1/7,9/14,3/11,(2 + 1) / (4 + 7) = 3/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 3x + 8 = 29,7,7,"3x = 29 - 8
+3x = 21
+x = 21 / 3
+x = 7",isolate_variable,correct,Perfect execution of two-step linear equation
+linear_equations,Solve for x: 8x = 2,0.25,4,x = 8 / 2 = 4,isolate_variable,multiplication_division_error,Divided coefficient by right side (8/2) instead of right side by coefficient (2/8)
+basic_algebra,Simplify: 2x + 3 + 2x - 3,4x + 0,5x + 0,"2x + 2x = 5x, 3 - 3 = 0",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 1 + 4x - 4,9x - 3,9x + 5,Added all constants ignoring minus: 1 + 4 = 5,integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 6x + 10 = 58,8,11.33,"6x = 58 + 10
+6x = 68
+x = 11.33",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 4x + 3 + 6x - 7,10x - 4,6x,4 + 3 + 6 - 7 = 6x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 75% of 80?,60,64,75/100 * 80 = 64,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 8x = 18,2.25,0.44,x = 8 / 18 = 0.44,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 5x + 13 = 53,8,13.2,"5x = 53 + 13
+5x = 66
+x = 13.2",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 15% of 200?,30,185,200 - 15 = 185,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 15% of 250?,37.5,37.5,(15 / 100) * 250 = 37.5,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 10 = 38,7,2.71,"4x + 10 = 14x
+14x = 38
+x = 2.71",direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 10% of 160?,16,16,(10 / 100) * 160 = 16,step_by_step_algebra,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 4x + 7 + 3x - 9,7x - 2,7x + 16,Added all constants ignoring minus: 7 + 9 = 16,isolate_variable,sign_error,Synthetic variation with sign_error logic
+percentages,What is 15% of 100?,15,85,100 - 15 = 85,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x = 14,2.8,0.36,x = 5 / 14 = 0.36,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 2/5 + 1/6,17/30,3/11,(2 + 1) / (5 + 6) = 3/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 5a + 2b - 3a,2a + 2b,4ab,"5a + 2b = 7ab, 7ab - 3a = 4ab",combine_all_terms,conceptual_misunderstanding,Treated variables as additive scalars together
+linear_equations,Solve for x: -7x = 70,-10,10,"x = 70 / 7
+x = 10",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -3x = 18,-6,6,"x = 18 / 3
+x = 6",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 6x = 3,0.5,2,"x = 6 / 3
+x = 2",isolate_variable,multiplication_division_error,Inverted numerator and denominator: divided 6/3 instead of 3/6
+fractions,Evaluate: 1/3 + 2/5,11/15,11/15,"LCM of 3 and 5 is 15
+5/15 + 6/15 = 11/15",common_denominator,correct,Correct common denominator and numerator sum
+linear_equations,Solve for x: 5x + 4 = 19,3,3,"5x = 19 - 4
+5x = 15
+x = 15 / 5
+x = 3",order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 6x + 7 + 4x - 9,10x - 2,10x + 16,Added all constants ignoring minus: 7 + 9 = 16,integer_rules,sign_error,Synthetic variation with sign_error logic
+percentages,A shirt costs $50 with a 20% discount. What is the sale price?,40,30,50 - 20 = 30,direct_subtraction,conceptual_misunderstanding,Deducted 20 directly from 50 instead of calculating 20% of 50 = 10
+basic_algebra,Simplify: 7x + 8x - 3x,12x,11x,"7 + 8 = 14, 14 - 3 = 11x",combine_like_terms,arithmetic_calculation_error,Miscalculated 7 + 8 as 14 instead of 15
+percentages,What is 15% of 40?,6,6,(15 / 100) * 40 = 6,distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 2/5 + 4/7,34/35,6/12,(2 + 4) / (5 + 7) = 6/12,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 5x = 18,3.6,0.28,x = 5 / 18 = 0.28,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 2x + 3 + 5x - 9,7x - 6,7x - 6,Group like terms: (2 + 5)x + (3 - 9) = 7x - 6,order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -6x = 48,-8,8,"x = 48 / 6
+x = 8",distribute_negative,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 3x + 5 + 4x - 6,7x - 1,7x + 11,Added all constants ignoring minus: 5 + 6 = 11,integer_rules,sign_error,Synthetic variation with sign_error logic
+percentages,What is 10% of 80?,8,800,80 * 10 = 800,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 7x + 9 = 58,7,7.14,"7x = 58 - 9
+7x = 50
+x = 7.14",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 4x + 15 = 47,8,7.75,"4x = 47 - 15
+4x = 31
+x = 31/4",isolate_variable,arithmetic_calculation_error,Subtracted 47 - 15 and got 31 instead of 32
+fractions,Evaluate: 1/3 + 3/7,16/21,4/10,(1 + 3) / (3 + 7) = 4/10,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 15% of 160?,24,24,(15 / 100) * 160 = 24,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/6 + 1/7,13/42,13/42,"Common denominator is 42
+7/42 + 6/42 = 13/42",step_by_step_algebra,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/3 + 3/5,14/15,4/8,(1 + 3) / (3 + 5) = 4/8,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/2 + 3/7,13/14,12/14,"Common denominator is 14
+(7 + 6) / 14 = 12/14",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 4x + 22 = 38,4,15,"4x = 38 + 22
+4x = 60
+x = 15",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 7x = 22,3.14,0.32,x = 7 / 22 = 0.32,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 3x + 1 + 4x - 5,7x - 4,7x - 4,Group like terms: (3 + 4)x + (1 - 5) = 7x - 4,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 16 = 31,3,9.4,"5x = 31 + 16
+5x = 47
+x = 9.4",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 4x + 2 + 5x - 4,9x - 2,9x + 6,Added all constants ignoring minus: 2 + 4 = 6,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 6 + 2x - 2,8x + 4,12x,6 + 6 + 2 - 2 = 12x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 40% of 60?,24,20,60 - 40 = 20,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 5 + 6x - 7,9x - 2,7x,3 + 5 + 6 - 7 = 7x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 4 + 5x - 5,11x - 1,12x + -1,"6x + 5x = 12x, 4 - 5 = -1",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 9 + 3x - 2,7x + 7,14x,4 + 9 + 3 - 2 = 14x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/4 + 3/5,11/10,11/10,"Common denominator is 20
+10/20 + 12/20 = 11/10",order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/6 + 2/3,5/6,4/6,"Common denominator is 6
+(1 + 4) / 6 = 4/6",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 8 + 6x - 7,10x + 1,12x + 1,"4x + 6x = 12x, 8 - 7 = 1",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 6x + 8 = 56,8,10.67,"6x = 56 + 8
+6x = 64
+x = 10.67",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 6x + 3 + 3x - 8,9x - 5,11x + -5,"6x + 3x = 11x, 3 - 8 = -5",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 40% of 60?,24,2400,60 * 40 = 2400,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 4x + 9 + 3x - 9,7x + 0,7x,4 + 9 + 3 - 9 = 7x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -2x = 8,-4,4,"x = 8 / 2
+x = 4",isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 9x + 4 = 31,3,3.11,"9x = 31 - 4
+9x = 28
+x = 3.11",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 7 + 4x - 8,9x - 1,10x + -1,"5x + 4x = 10x, 7 - 8 = -1",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 7 + 2x - 3,7x + 4,7x + 10,Added all constants ignoring minus: 7 + 3 = 10,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 50% of 40?,20,2000,40 * 50 = 2000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 4/5 + 2/3,22/15,24/15,"Common denominator is 15
+(12 + 10) / 15 = 24/15",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: -7x = 21,-3,3,"x = 21 / 7
+x = 3",isolate_variable,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 2x + 6 + 2x - 9,4x - 3,5x + -3,"2x + 2x = 5x, 6 - 9 = -3",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/2 + 1/7,9/14,2/9,(1 + 1) / (2 + 7) = 2/9,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 3x + 17 = 29,4,15.33,"3x = 29 + 17
+3x = 46
+x = 15.33",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 1/2 + 3/4,5/4,4/6,(1 + 3) / (2 + 4) = 4/6,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 15% of 120?,18,105,120 - 15 = 105,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 3x + 15 = 39,8,8.67,"3x = 39 - 15
+3x = 26
+x = 8.67",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/4 + 6/7,31/28,30/28,"Common denominator is 28
+(7 + 24) / 28 = 30/28",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 10% of 60?,6,50,60 - 10 = 50,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 5x + 5 + 6x - 3,11x + 2,11x + 8,Added all constants ignoring minus: 5 + 3 = 8,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 1/6 + 1/4,5/12,2/10,(1 + 1) / (6 + 4) = 2/10,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 2x = 17,8.5,0.12,x = 2 / 17 = 0.12,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 10% of 160?,16,150,160 - 10 = 150,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 50% of 80?,40,30,80 - 50 = 30,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 6x + 24 = 48,4,1.6,"6x + 24 = 30x
+30x = 48
+x = 1.6",pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/5 + 2/3,16/15,18/15,"Common denominator is 15
+(6 + 10) / 15 = 18/15",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 5x + 17 = 32,3,9.8,"5x = 32 + 17
+5x = 49
+x = 9.8",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 3/4 + 4/5,31/20,7/9,(3 + 4) / (4 + 5) = 7/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 2x + 2 + 5x - 6,7x - 4,3x,2 + 2 + 5 - 6 = 3x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 40% of 250?,100,10000,250 * 40 = 10000,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 1/2 + 2/4,1,3/6,(1 + 2) / (2 + 4) = 3/6,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/2 + 2/4,1,5/4,"Common denominator is 4
+(2 + 2) / 4 = 5/4",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 30% of 40?,12,10,30/100 * 40 = 10,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 1 + 2x - 8,6x - 7,6x + 9,Added all constants ignoring minus: 1 + 8 = 9,isolate_variable,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 2x + 1 + 5x - 8,7x - 7,7x + 9,Added all constants ignoring minus: 1 + 8 = 9,distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 15% of 160?,24,26,15/100 * 160 = 26,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 30% of 40?,12,10,40 - 30 = 10,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 5 = 35,6,8,"5x = 35 + 5
+5x = 40
+x = 8",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 1/4 + 4/7,23/28,5/11,(1 + 4) / (4 + 7) = 5/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 3/6 + 2/3,7/6,9/6,"Common denominator is 6
+(3 + 4) / 6 = 9/6",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 9x + 17 = 62,5,5,"9x = 62 - 17
+9x = 45
+x = 45 / 9
+x = 5",order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 50% of 80?,40,30,80 - 50 = 30,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 7 + 3x - 8,9x - 1,8x,6 + 7 + 3 - 8 = 8x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/6 + 2/4,5/6,5/6,"Common denominator is 12
+4/12 + 6/12 = 5/6",step_by_step_algebra,correct,Synthetic variation with correct logic
+percentages,What is 20% of 250?,50,5000,250 * 20 = 5000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: -2x = 4,-2,2,"x = 4 / 2
+x = 2",isolate_variable,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 3x + 7 + 4x - 9,7x - 2,5x,3 + 7 + 4 - 9 = 5x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 8x + 10 = 26,2,1.88,"8x = 26 - 10
+8x = 15
+x = 1.88",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/4 + 1/5,9/20,2/9,(1 + 1) / (4 + 5) = 2/9,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/2 + 1/3,5/6,5/6,"Common denominator is 6
+3/6 + 2/6 = 5/6",distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Evaluate: 4x + 7 when x = 6,31,29,"4 * 6 = 22
+22 + 7 = 29",substitution,arithmetic_calculation_error,Calculated 4 * 6 = 22 instead of 24
+linear_equations,Solve for x: 4x + 12 = 24,3,9,"4x = 24 + 12
+4x = 36
+x = 9",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 30% of 250?,75,75,(30 / 100) * 250 = 75,distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -6x = 66,-11,11,"x = 66 / 6
+x = 11",isolate_variable,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 5/6 + 1/5,31/30,31/30,"Common denominator is 30
+25/30 + 6/30 = 31/30",distributive_property,correct,Synthetic variation with correct logic
+percentages,What is 20% of 80?,16,60,80 - 20 = 60,subtraction,conceptual_misunderstanding,Subtracted the percentage number 20 from 80 like a dollar amount
+linear_equations,Solve for x: 8x + 20 = 60,5,2.14,"8x + 20 = 28x
+28x = 60
+x = 2.14",pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 4/5 + 4/7,48/35,49/35,"Common denominator is 35
+(28 + 20) / 35 = 49/35",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 7 + 2x - 3,6x + 4,6x + 4,"4x + 2x = 6x
+7 - 3 = 4
+Answer: 6x + 4",combine_like_terms,correct,Correct grouping of like variable terms and constants
+basic_algebra,Simplify: 6x + 7 + 3x - 2,9x + 5,9x + 5,Group like terms: (6 + 3)x + (7 - 2) = 9x + 5,common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 2/3,7/6,3/5,1 + 2 over 2 + 3 = 3/5,direct_addition,fraction_operation_error,Direct addition of tops and bottoms
+fractions,Evaluate: 2/4 + 1/5,7/10,7/10,"Common denominator is 20
+10/20 + 4/20 = 7/10",common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 50% of 100?,50,47,50/100 * 100 = 47,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 6x + 1 + 4x - 2,10x - 1,9x,6 + 1 + 4 - 2 = 9x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 3 + 6x - 6,10x - 3,10x + 9,Added all constants ignoring minus: 3 + 6 = 9,distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 20% of 120?,24,24,(20 / 100) * 120 = 24,step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 8x + 17 = 65,6,2.6,"8x + 17 = 25x
+25x = 65
+x = 2.6",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 8 + 2x - 9,6x - 1,6x - 1,Group like terms: (4 + 2)x + (8 - 9) = 6x - 1,distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 12 = 57,9,3.35,"5x + 12 = 17x
+17x = 57
+x = 3.35",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 5 + 2x - 3,8x + 2,8x + 2,Group like terms: (6 + 2)x + (5 - 3) = 8x + 2,common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 20% of 80?,16,16,(20 / 100) * 80 = 16,order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 9x + 23 = 68,5,5.11,"9x = 68 - 23
+9x = 46
+x = 5.11",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 5x + 25 = 80,11,21,"5x = 80 + 25
+5x = 105
+x = 21",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 2x + 5 + 5x - 1,7x + 4,7x + 6,Added all constants ignoring minus: 5 + 1 = 6,isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 8x + 12 = 68,7,7,"8x = 68 - 12
+8x = 56
+x = 56 / 8
+x = 7",order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 22 = 42,5,5.25,"4x = 42 - 22
+4x = 21
+x = 5.25",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 20% of 200?,40,4000,200 * 20 = 4000,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 75% of 100?,75,25,100 - 75 = 25,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 100?,20,80,100 - 20 = 80,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 8x + 17 = 49,4,4,"8x = 49 - 17
+8x = 32
+x = 32 / 8
+x = 4",step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 10 = 22,3,8,"4x = 22 + 10
+4x = 32
+x = 8",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 2x + 4 + 5x - 4,7x + 0,7x + 0,Group like terms: (2 + 5)x + (4 - 4) = 7x + 0,distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 9x + 13 = 94,9,11.89,"9x = 94 + 13
+9x = 107
+x = 11.89",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 5x + 3 + 3x - 5,8x - 2,6x,5 + 3 + 3 - 5 = 6x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 20 = 35,3,11,"5x = 35 + 20
+5x = 55
+x = 11",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 3x + 1 + 4x - 5,7x - 4,9x + -4,"3x + 4x = 9x, 1 - 5 = -4",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 3/4 + 1/7,25/28,4/11,(3 + 1) / (4 + 7) = 4/11,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/6 + 6/7,43/42,43/42,"Common denominator is 42
+7/42 + 36/42 = 43/42",step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 3x + 9 = 30,7,13,"3x = 30 + 9
+3x = 39
+x = 13",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 10% of 60?,6,50,60 - 10 = 50,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 4/5 + 3/4,31/20,31/20,"Common denominator is 20
+16/20 + 15/20 = 31/20",common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 3x + 16 = 37,7,7,"3x = 37 - 16
+3x = 21
+x = 21 / 3
+x = 7",order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/4 + 2/5,13/20,15/20,"Common denominator is 20
+(5 + 8) / 20 = 15/20",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 3x + 1 + 4x - 8,7x - 7,7x + 9,Added all constants ignoring minus: 1 + 8 = 9,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 50% of 40?,20,2000,40 * 50 = 2000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 2/5 + 1/3,11/15,3/8,(2 + 1) / (5 + 3) = 3/8,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 75% of 200?,150,154,75/100 * 200 = 154,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 2x = 15,7.5,0.13,x = 2 / 15 = 0.13,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 50% of 200?,100,100,(50 / 100) * 200 = 100,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 3/4 + 3/5,27/20,6/9,(3 + 3) / (4 + 5) = 6/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/3 + 2/7,13/21,3/10,(1 + 2) / (3 + 7) = 3/10,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 4x + 25 = 73,12,2.52,"4x + 25 = 29x
+29x = 73
+x = 2.52",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 2x + 10 = 34,12,22,"2x = 34 + 10
+2x = 44
+x = 22",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 50% of 200?,100,10000,200 * 50 = 10000,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 3/5 + 2/3,19/15,19/15,"Common denominator is 15
+9/15 + 10/15 = 19/15",common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 30% of 80?,24,2400,80 * 30 = 2400,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 4x + 9 + 2x - 9,6x + 0,6x,4 + 9 + 2 - 9 = 6x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -3x = 9,-3,3,"x = 9 / 3
+x = 3",distribute_negative,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 8 + 2x - 2,8x + 6,9x + 6,"6x + 2x = 9x, 8 - 2 = 6",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/2 + 1/7,9/14,2/9,(1 + 1) / (2 + 7) = 2/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 2x + 5 + 3x - 9,5x - 4,3x + -4,"2x + 3x = 3x, 5 - 9 = -4",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 75% of 160?,120,85,160 - 75 = 85,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -8x = 32,-4,4,"x = 32 / 8
+x = 4",integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 2x + 7 + 2x - 9,4x - 2,4x + 16,Added all constants ignoring minus: 7 + 9 = 16,integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 6 + 4x - 4,10x + 2,10x + 10,Added all constants ignoring minus: 6 + 4 = 10,distribute_negative,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 1/3 + 1/4,7/12,7/12,"Common denominator is 12
+4/12 + 3/12 = 7/12",distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 8x + 24 = 112,11,17,"8x = 112 + 24
+8x = 136
+x = 17",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -9x = 36,-4,4,"x = 36 / 9
+x = 4",isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 5x + 17 = 77,12,18.8,"5x = 77 + 17
+5x = 94
+x = 18.8",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 4x + 5 + 6x - 7,10x - 2,10x + 12,Added all constants ignoring minus: 5 + 7 = 12,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 75% of 80?,60,6000,80 * 75 = 6000,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 3x + 7 + 5x - 2,8x + 5,13x,3 + 7 + 5 - 2 = 13x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 5x + 9 + 2x - 9,7x + 0,7x + 18,Added all constants ignoring minus: 9 + 9 = 18,isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 5x + 17 = 27,2,8.8,"5x = 27 + 17
+5x = 44
+x = 8.8",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 9x + 5 = 68,7,7.22,"9x = 68 - 5
+9x = 65
+x = 7.22",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/4 + 2/5,13/20,3/9,(1 + 2) / (4 + 5) = 3/9,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 15% of 100?,15,85,100 - 15 = 85,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Expand: 3(2x - 5),6x - 15,6x - 15,3 * 2x - 3 * 5 = 6x - 15,distributive_property,correct,Accurate distribution across both terms
+linear_equations,Solve for x: -8x = 24,-3,3,"x = 24 / 8
+x = 3",distribute_negative,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 2/4 + 4/5,13/10,6/9,(2 + 4) / (4 + 5) = 6/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/4 + 2/3,11/12,11/12,"Common denominator is 12
+3/12 + 8/12 = 11/12",step_by_step_algebra,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 6x + 5 + 3x - 1,9x + 4,9x + 4,Group like terms: (6 + 3)x + (5 - 1) = 9x + 4,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/4 + 4/5,21/20,5/9,(1 + 4) / (4 + 5) = 5/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 3x + 1 + 3x - 6,6x - 5,6x - 5,Group like terms: (3 + 3)x + (1 - 6) = 6x - 5,distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 3 + 5x - 3,7x + 0,9x + 0,"2x + 5x = 9x, 3 - 3 = 0",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 4 + 2x - 9,7x - 5,2x,5 + 4 + 2 - 9 = 2x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 4/5 + 1/6,29/30,29/30,"Common denominator is 30
+24/30 + 5/30 = 29/30",distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 4/5 + 5/6,49/30,9/11,(4 + 5) / (5 + 6) = 9/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 25% of 80?,20,20,(25 / 100) * 80 = 20,distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 2/5,9/10,3/7,(1 + 2) / (2 + 5) = 3/7,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 5x + 10 = 50,8,3.33,"5x + 10 = 15x
+15x = 50
+x = 3.33",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 40% of 120?,48,4800,120 * 40 = 4800,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 4x = 21,5.25,0.19,x = 4 / 21 = 0.19,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 20% of 80?,16,60,80 - 20 = 60,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 1 + 3x - 5,6x - 4,6x - 4,Group like terms: (3 + 3)x + (1 - 5) = 6x - 4,order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 30% of 120?,36,3600,120 * 30 = 3600,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 3/5 + 1/7,26/35,25/35,"Common denominator is 35
+(21 + 5) / 35 = 25/35",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/2 + 2/7,11/14,3/9,(1 + 2) / (2 + 7) = 3/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -2x = 4,-2,2,"x = 4 / 2
+x = 2",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -4x = 20,-5,5,"x = 20 / 4
+x = 5",integer_rules,sign_error,Synthetic variation with sign_error logic
+percentages,What is 40% of 40?,16,14,40/100 * 40 = 14,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 3x + 4 = 37,11,13.67,"3x = 37 + 4
+3x = 41
+x = 13.67",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -6x = 48,-8,8,"x = 48 / 6
+x = 8",integer_rules,sign_error,Synthetic variation with sign_error logic
+percentages,What is 15% of 40?,6,6,(15 / 100) * 40 = 6,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x = 22,4.4,0.23,x = 5 / 22 = 0.23,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 25% of 120?,30,3000,120 * 25 = 3000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 3/4 + 1/3,13/12,15/12,"Common denominator is 12
+(9 + 4) / 12 = 15/12",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 4x + 16 = 60,11,19,"4x = 60 + 16
+4x = 76
+x = 19",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/4 + 4/7,15/14,32/28,"Common denominator is 28
+(14 + 16) / 28 = 32/28",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 4 + 6x - 8,11x - 4,11x + 12,Added all constants ignoring minus: 4 + 8 = 12,distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -9x = 63,-7,7,"x = 63 / 9
+x = 7",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 2x + 8 + 5x - 2,7x + 6,13x,2 + 8 + 5 - 2 = 13x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 9 + 2x - 6,5x + 3,3x + 3,"3x + 2x = 3x, 9 - 6 = 3",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 3/6 + 2/3,7/6,5/9,(3 + 2) / (6 + 3) = 5/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 2/5 + 2/3,16/15,4/8,(2 + 2) / (5 + 3) = 4/8,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 5x + 11 = 36,5,9.4,"5x = 36 + 11
+5x = 47
+x = 9.4",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Evaluate: x^2 when x = 5,25,10,5 * 2 = 10,multiply_by_power,conceptual_misunderstanding,Confused exponent power with multiplication by 2
+percentages,What is 15% of 100?,15,15,(15 / 100) * 100 = 15,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 8x + 7 = 55,6,3.67,"8x + 7 = 15x
+15x = 55
+x = 3.67",pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -7x = 42,-6,6,"x = 42 / 7
+x = 6",distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 4x + 16 = 32,4,1.6,"4x + 16 = 20x
+20x = 32
+x = 1.6",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 160?,32,34,20/100 * 160 = 34,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 8 + 3x - 3,8x + 5,13x,5 + 8 + 3 - 3 = 13x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 80?,16,16,(20 / 100) * 80 = 16,step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -7x = 70,-10,10,"x = 70 / 7
+x = 10",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 30% of 200?,60,170,200 - 30 = 170,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 2x + 2 + 3x - 7,5x - 5,0x,2 + 2 + 3 - 7 = 0x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 50% of 250?,125,122,50/100 * 250 = 122,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 4x + 9 = 53,11,4.08,"4x + 9 = 13x
+13x = 53
+x = 4.08",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/3 + 1/7,17/21,3/10,(2 + 1) / (3 + 7) = 3/10,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 20% of 80?,16,1600,80 * 20 = 1600,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 3x + 3 + 4x - 2,7x + 1,8x,3 + 3 + 4 - 2 = 8x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 4x + 9 = 17,2,6.5,"4x = 17 + 9
+4x = 26
+x = 6.5",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 1/5 + 1/3,8/15,7/15,"Common denominator is 15
+(3 + 5) / 15 = 7/15",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 6x + 9 = 27,3,3,"6x = 27 - 9
+6x = 18
+x = 18 / 6
+x = 3",distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 1 + 3x - 6,5x - 5,0x,2 + 1 + 3 - 6 = 0x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 200?,40,4000,200 * 20 = 4000,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 2x + 6 + 6x - 3,8x + 3,8x + 9,Added all constants ignoring minus: 6 + 3 = 9,distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 30% of 120?,36,36,(30 / 100) * 120 = 36,step_by_step_algebra,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 5 + 5x - 5,7x + 0,7x + 10,Added all constants ignoring minus: 5 + 5 = 10,integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 5x + 25 = 65,8,8,"5x = 65 - 25
+5x = 40
+x = 40 / 5
+x = 8",common_denominator,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 4x + 3 + 6x - 9,10x - 6,10x + 12,Added all constants ignoring minus: 3 + 9 = 12,distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 30% of 80?,24,50,80 - 30 = 50,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/6 + 2/7,13/21,4/13,(2 + 2) / (6 + 7) = 4/13,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 4/5 + 3/6,13/10,13/10,"Common denominator is 30
+24/30 + 15/30 = 13/10",common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 25% of 200?,50,5000,200 * 25 = 5000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 7x + 8 = 64,8,8,"7x = 64 - 8
+7x = 56
+x = 56 / 7
+x = 8",common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 2/4 + 1/5,7/10,7/10,"Common denominator is 20
+10/20 + 4/20 = 7/10",order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -4x - 5 = 15,-5,5,"-4x = 20
+x = 20 / 4 = 5",isolate_variable,sign_error,Forgot to keep negative when dividing 20 by -4
+percentages,What is 15% of 160?,24,26,15/100 * 160 = 26,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 10% of 160?,16,150,160 - 10 = 150,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 14 = 64,10,15.6,"5x = 64 + 14
+5x = 78
+x = 15.6",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -4x = 28,-7,7,"x = 28 / 4
+x = 7",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 3/4 + 1/3,13/12,4/7,(3 + 1) / (4 + 3) = 4/7,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 3/4 + 2/3,17/12,16/12,"Common denominator is 12
+(9 + 8) / 12 = 16/12",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/6 + 3/5,23/30,4/11,(1 + 3) / (6 + 5) = 4/11,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 4/5 + 5/7,53/35,52/35,"Common denominator is 35
+(28 + 25) / 35 = 52/35",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 9x = 23,2.56,0.39,x = 9 / 23 = 0.39,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 75% of 250?,187.5,175,250 - 75 = 175,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 100?,20,80,100 - 20 = 80,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/5 + 2/7,17/35,3/12,(1 + 2) / (5 + 7) = 3/12,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 3/4 * 2/5,3/10,3/10,(3 * 2) / (4 * 5) = 6/20 = 3/10,multiply_across,correct,Multiplied numerators and denominators and simplified
+percentages,What is 15% of 40?,6,10,15/100 * 40 = 10,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 5/6 + 2/3,3/2,3/2,"Common denominator is 6
+5/6 + 4/6 = 3/2",distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 17 = 41,6,14.5,"4x = 41 + 17
+4x = 58
+x = 14.5",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 4x + 7 + 2x - 1,6x + 6,6x + 8,Added all constants ignoring minus: 7 + 1 = 8,distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 6x + 7 = 55,8,10.33,"6x = 55 + 7
+6x = 62
+x = 10.33",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 30% of 120?,36,3600,120 * 30 = 3600,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 7x + 21 = 63,6,12,"7x = 63 + 21
+7x = 84
+x = 12",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 12 = 66,9,9.17,"6x = 66 - 12
+6x = 55
+x = 9.17",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 20% of 40?,8,12,20/100 * 40 = 12,scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 9x + 12 = 39,3,5.67,"9x = 39 + 12
+9x = 51
+x = 5.67",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 21 = 45,4,11,"6x = 45 + 21
+6x = 66
+x = 11",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 20% of 200?,40,38,20/100 * 200 = 38,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/2 + 2/4,1,1,"Common denominator is 4
+2/4 + 2/4 = 1",step_by_step_algebra,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 8 + 4x - 7,6x + 1,7x,2 + 8 + 4 - 7 = 7x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 40% of 120?,48,80,120 - 40 = 80,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 3/5 + 5/7,46/35,8/12,(3 + 5) / (5 + 7) = 8/12,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 8x + 16 = 40,3,7,"8x = 40 + 16
+8x = 56
+x = 7",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 17 = 53,6,11.67,"6x = 53 + 17
+6x = 70
+x = 11.67",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 2x + 7 + 2x - 7,4x + 0,4x,2 + 7 + 2 - 7 = 4x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 5x + 1 + 4x - 7,9x - 6,7x + -6,"5x + 4x = 7x, 1 - 7 = -6",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 4x + 8 = 16,2,6,"4x = 16 + 8
+4x = 24
+x = 6",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -4x = 32,-8,8,"x = 32 / 4
+x = 8",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: x / 5 = 6,30,1.2,"x = 6 / 5
+x = 1.2",isolate_variable,inverse_operation_error,Divided by 5 instead of multiplying by 5 to isolate x
+linear_equations,Solve for x: 7x + 4 = 74,10,10,"7x = 74 - 4
+7x = 70
+x = 70 / 7
+x = 10",order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 40% of 40?,16,13,40/100 * 40 = 13,standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 5x + 20 = 75,11,19,"5x = 75 + 20
+5x = 95
+x = 19",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 3x + 3 = 12,3,2,"3x + 3 = 6x
+6x = 12
+x = 2",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -9x = 27,-3,3,"x = 27 / 9
+x = 3",integer_rules,sign_error,Synthetic variation with sign_error logic
+percentages,What is 40% of 200?,80,80,(40 / 100) * 200 = 80,distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 23 = 63,8,17.2,"5x = 63 + 23
+5x = 86
+x = 17.2",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 3x + 22 = 49,9,23.67,"3x = 49 + 22
+3x = 71
+x = 23.67",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 6x + 3 + 4x - 7,10x - 4,6x,6 + 3 + 4 - 7 = 6x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 9 + 5x - 8,9x + 1,9x + 1,Group like terms: (4 + 5)x + (9 - 8) = 9x + 1,distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 6x + 6 = 48,7,7,"6x = 48 - 6
+6x = 42
+x = 42 / 6
+x = 7",common_denominator,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 3x + 8 + 6x - 6,9x + 2,9x + 2,Group like terms: (3 + 6)x + (8 - 6) = 9x + 2,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 2/3,7/6,7/6,"Common denominator is 6
+3/6 + 4/6 = 7/6",distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/5 + 1/7,12/35,12/35,"Common denominator is 35
+7/35 + 5/35 = 12/35",common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 5 = 29,6,3.22,"4x + 5 = 9x
+9x = 29
+x = 29/9",combine_terms,conceptual_misunderstanding,Combined unlike terms 4x and 5 to get 9x
+linear_equations,Solve for x: 4x + 5 = 29,6,8.5,"4x = 29 + 5
+4x = 34
+x = 8.5",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 21 = 87,11,11.17,"6x = 87 - 21
+6x = 67
+x = 11.17",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 8 + 5x - 6,9x + 2,11x,4 + 8 + 5 - 6 = 11x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 13 = 73,12,17.2,"5x = 73 + 13
+5x = 86
+x = 17.2",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 1/3 + 3/5,14/15,14/15,"Common denominator is 15
+5/15 + 9/15 = 14/15",distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 3/6 + 2/3,7/6,5/9,(3 + 2) / (6 + 3) = 5/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 40% of 100?,40,4000,100 * 40 = 4000,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 9x + 5 = 23,2,1.78,"9x = 23 - 5
+9x = 16
+x = 1.78",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/2 + 3/4,5/4,4/6,(1 + 3) / (2 + 4) = 4/6,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 7x + 25 = 88,9,16.14,"7x = 88 + 25
+7x = 113
+x = 16.14",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 2x + 7 = 19,6,13,"2x = 19 + 7
+2x = 26
+x = 13",isolate_variable,inverse_operation_error,Added 7 instead of subtracting 7 from both sides
+basic_algebra,Simplify: 2x + 5 + 5x - 9,7x - 4,3x,2 + 5 + 5 - 9 = 3x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 6 + 4x - 1,7x + 5,9x + 5,"3x + 4x = 9x, 6 - 1 = 5",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What percentage of 50 is 15?,30%,3.33%,50 / 15 = 3.33,inverted_ratio,multiplication_division_error,Divided total by part (50/15) instead of part by total (15/50)
+basic_algebra,Simplify: 3x + 3 + 5x - 9,8x - 6,8x + 12,Added all constants ignoring minus: 3 + 9 = 12,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -3x = 27,-9,9,"x = 27 / 3
+x = 9",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 20% of 100?,20,80,100 - 20 = 80,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 9x = 4,0.44,2.25,x = 9 / 4 = 2.25,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 3x + 23 = 41,6,21.33,"3x = 41 + 23
+3x = 64
+x = 21.33",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 25% of 160?,40,4000,160 * 25 = 4000,multiply_without_dividing_100,multiplication_division_error,Multiplied by 25 but forgot to divide by 100 or convert to 0.25
+linear_equations,Solve for x: 3x + 10 = 22,4,1.69,"3x + 10 = 13x
+13x = 22
+x = 1.69",pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -9x = 45,-5,5,"x = 45 / 9
+x = 5",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 4/6 + 2/7,20/21,6/13,(4 + 2) / (6 + 7) = 6/13,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -9x = 54,-6,6,"x = 54 / 9
+x = 6",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 3x + 14 = 32,6,5.67,"3x = 32 - 14
+3x = 17
+x = 17 / 3",isolate_variable,arithmetic_calculation_error,Correct algebra steps but calculated 32 - 14 = 17 instead of 18
+linear_equations,Solve for x: 2x + 21 = 33,6,27,"2x = 33 + 21
+2x = 54
+x = 27",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 9x + 18 = 126,12,4.67,"9x + 18 = 27x
+27x = 126
+x = 4.67",direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 30% of 40?,12,10,30/100 * 40 = 10,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/4 + 3/5,17/20,4/9,(1 + 3) / (4 + 5) = 4/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 4x + 10 = 54,11,16,"4x = 54 + 10
+4x = 64
+x = 16",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 40% of 60?,24,2400,60 * 40 = 2400,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 6x + 8 + 3x - 3,9x + 5,7x + 5,"6x + 3x = 7x, 8 - 3 = 5",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 6x + 4 = 28,4,4,"6x = 28 - 4
+6x = 24
+x = 24 / 6
+x = 4",distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 4x + 12 = 60,12,18,"4x = 60 + 12
+4x = 72
+x = 18",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -4x = 16,-4,4,"x = 16 / 4
+x = 4",distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 7% of 200?,14,16,7 * 2 = 16,mental_math,arithmetic_calculation_error,Simple times table mistake: 7 * 2 = 16 instead of 14
+basic_algebra,Simplify: 5x + 1 + 4x - 4,9x - 3,9x + 5,Added all constants ignoring minus: 1 + 4 = 5,integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 3x + 18 = 27,3,1.29,"3x + 18 = 21x
+21x = 27
+x = 1.29",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 40% of 200?,80,8000,200 * 40 = 8000,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 2/4 + 3/7,13/14,5/11,(2 + 3) / (4 + 7) = 5/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 6x + 5 + 2x - 3,8x + 2,10x,6 + 5 + 2 - 3 = 10x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 100?,20,18,20/100 * 100 = 18,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 9x + 9 = 81,8,4.5,"9x + 9 = 18x
+18x = 81
+x = 4.5",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 25% of 120?,30,95,120 - 25 = 95,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 3 + 3x - 9,7x - 6,1x,4 + 3 + 3 - 9 = 1x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -3x = 30,-10,10,"x = 30 / 3
+x = 10",distribute_negative,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 5x + 5 + 5x - 4,10x + 1,10x + 9,Added all constants ignoring minus: 5 + 4 = 9,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 2x + 4 + 3x - 4,5x + 0,5x + 0,Group like terms: (2 + 3)x + (4 - 4) = 5x + 0,order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 6x + 23 = 95,12,19.67,"6x = 95 + 23
+6x = 118
+x = 19.67",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 6x + 8 + 3x - 6,9x + 2,9x + 14,Added all constants ignoring minus: 8 + 6 = 14,integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 6 + 6x - 1,12x + 5,17x,6 + 6 + 6 - 1 = 17x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 5x + 2 + 2x - 4,7x - 2,7x + 6,Added all constants ignoring minus: 2 + 4 = 6,distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 5x + 6 = 26,4,2.36,"5x + 6 = 11x
+11x = 26
+x = 2.36",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 3x + 11 = 17,2,9.33,"3x = 17 + 11
+3x = 28
+x = 9.33",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -9x = 81,-9,9,"x = 81 / 9
+x = 9",distribute_negative,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 5/6 + 1/3,7/6,6/9,(5 + 1) / (6 + 3) = 6/9,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 75% of 250?,187.5,175,250 - 75 = 175,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 8 + 2x - 7,5x + 1,6x,3 + 8 + 2 - 7 = 6x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 5/6 + 2/3,3/2,7/9,(5 + 2) / (6 + 3) = 7/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 3x + 5 = 17,4,7.33,"3x = 17 + 5
+3x = 22
+x = 7.33",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -8x = 96,-12,12,"x = 96 / 8
+x = 12",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 4x + 5 + 4x - 1,8x + 4,9x + 4,"4x + 4x = 9x, 5 - 1 = 4",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 50% of 200?,100,100,(50 / 100) * 200 = 100,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/5 + 1/6,11/30,2/11,(1 + 1) / (5 + 6) = 2/11,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 5x + 22 = 67,9,17.8,"5x = 67 + 22
+5x = 89
+x = 17.8",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 4x + 4 = 16,3,2,"4x + 4 = 8x
+8x = 16
+x = 2",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 8 + 5x - 1,8x + 7,15x,3 + 8 + 5 - 1 = 15x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 4x = 17,4.25,0.24,x = 4 / 17 = 0.24,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 8x + 15 = 103,11,4.48,"8x + 15 = 23x
+23x = 103
+x = 4.48",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 9 + 3x - 6,7x + 3,10x,4 + 9 + 3 - 6 = 10x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 8x + 22 = 118,12,12,"8x = 118 - 22
+8x = 96
+x = 96 / 8
+x = 12",step_by_step_algebra,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 3/4,5/4,6/4,"Common denominator is 4
+(2 + 3) / 4 = 6/4",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 40% of 200?,80,160,200 - 40 = 160,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/3 + 3/5,19/15,19/15,"Common denominator is 15
+10/15 + 9/15 = 19/15",common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 4/6 + 3/5,19/15,7/11,(4 + 3) / (6 + 5) = 7/11,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 3/4 + 1/3,13/12,13/12,"Common denominator is 12
+9/12 + 4/12 = 13/12",step_by_step_algebra,correct,Synthetic variation with correct logic
+percentages,What is 15% of 80?,12,1200,80 * 15 = 1200,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 3x + 9 + 3x - 3,6x + 6,12x,3 + 9 + 3 - 3 = 12x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 8x + 12 = 100,11,11.12,"8x = 100 - 12
+8x = 89
+x = 11.12",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/4 + 1/5,9/20,9/20,"Common denominator is 20
+5/20 + 4/20 = 9/20",common_denominator,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/3 + 3/7,16/21,4/10,(1 + 3) / (3 + 7) = 4/10,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/6 + 1/4,5/12,2/10,(1 + 1) / (6 + 4) = 2/10,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -8x = 88,-11,11,"x = 88 / 8
+x = 11",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 3x + 21 = 36,5,1.5,"3x + 21 = 24x
+24x = 36
+x = 1.5",direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 50% of 200?,100,10000,200 * 50 = 10000,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 4x + 8 + 6x - 4,10x + 4,14x,4 + 8 + 6 - 4 = 14x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 3/4 + 2/7,29/28,5/11,(3 + 2) / (4 + 7) = 5/11,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 9x = 10,1.11,0.9,x = 9 / 10 = 0.9,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+linear_equations,Solve for x: 3x + 14 = 41,9,2.41,"3x + 14 = 17x
+17x = 41
+x = 2.41",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/5 + 2/3,13/15,3/8,(1 + 2) / (5 + 3) = 3/8,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 3/5 + 2/3,19/15,5/8,(3 + 2) / (5 + 3) = 5/8,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 30% of 120?,36,3600,120 * 30 = 3600,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 10% of 200?,20,190,200 - 10 = 190,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/2 + 2/4,1,3/6,(1 + 2) / (2 + 4) = 3/6,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/3 + 4/5,17/15,19/15,"Common denominator is 15
+(5 + 12) / 15 = 19/15",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 75% of 120?,90,45,120 - 75 = 45,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 2x + 12 = 26,7,19,"2x = 26 + 12
+2x = 38
+x = 19",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 10 = 40,5,8.33,"6x = 40 + 10
+6x = 50
+x = 8.33",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 3x + 9 + 5x - 8,8x + 1,9x + 1,"3x + 5x = 9x, 9 - 8 = 1",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 2x + 7 = 17,5,12,"2x = 17 + 7
+2x = 24
+x = 12",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 3x + 5 = 17,4,4.67,"3x = 17 - 5
+3x = 14
+x = 4.67",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: -2x = 14,-7,7,"x = 14 / 2
+x = 7",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 6x + 15 = 39,4,9,"6x = 39 + 15
+6x = 54
+x = 9",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 3/4 + 1/7,25/28,25/28,"Common denominator is 28
+21/28 + 4/28 = 25/28",step_by_step_algebra,correct,Synthetic variation with correct logic
+percentages,What is 25% of 60?,15,35,60 - 25 = 35,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/2 + 2/7,11/14,3/9,(1 + 2) / (2 + 7) = 3/9,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -(2x - 6) = 14,-4,10,"-2x - 6 = 14
+-2x = 20
+x = 10",expand_brackets,sign_error,"Failed to distribute negative to -6, making it -6 instead of +6, and dropped negative sign on x"
+linear_equations,Solve for x: 5x - 8 = 22,6,2.8,"5x = 22 - 8
+5x = 14
+x = 14/5 = 2.8",isolate_variable,inverse_operation_error,Subtracted 8 from 22 instead of adding 8
+linear_equations,Solve for x: 6x + 6 = 60,9,11,"6x = 60 + 6
+6x = 66
+x = 11",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -2x = 4,-2,2,"x = 4 / 2
+x = 2",integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 2 + 4x - 3,10x - 1,8x + -1,"6x + 4x = 8x, 2 - 3 = -1",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 1 + 3x - 7,7x - 6,1x,4 + 1 + 3 - 7 = 1x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 2x + 6 = 20,7,13,"2x = 20 + 6
+2x = 26
+x = 13",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 1/6 + 3/5,23/30,23/30,"Common denominator is 30
+5/30 + 18/30 = 23/30",distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -5x = 25,-5,5,"x = 25 / 5
+x = 5",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 2x + 4 = 18,7,11,"2x = 18 + 4
+2x = 22
+x = 11",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 5x + 6 + 6x - 7,11x - 1,10x,5 + 6 + 6 - 7 = 10x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 50% of 160?,80,77,50/100 * 160 = 77,scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 3/4 + 6/7,45/28,45/28,"Common denominator is 28
+21/28 + 24/28 = 45/28",distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 3x + 6 + 5x - 8,8x - 2,8x + 14,Added all constants ignoring minus: 6 + 8 = 14,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 2x = 20,10,0.1,x = 2 / 20 = 0.1,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 25% of 200?,50,5000,200 * 25 = 5000,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+fractions,Evaluate: 3/6 + 3/5,11/10,32/30,"Common denominator is 30
+(15 + 18) / 30 = 32/30",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 3/4 + 2/5,23/20,5/9,(3 + 2) / (4 + 5) = 5/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/2 + 4/5,13/10,13/10,"Common denominator is 10
+5/10 + 8/10 = 13/10",common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 15% of 60?,9,9,(15 / 100) * 60 = 9,distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 6x = 12,2,0.5,x = 6 / 12 = 0.5,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 2x + 9 + 4x - 7,6x + 2,8x,2 + 9 + 4 - 7 = 8x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 4/5 + 2/6,17/15,6/11,(4 + 2) / (5 + 6) = 6/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/4 + 3/7,19/28,20/28,"Common denominator is 28
+(7 + 12) / 28 = 20/28",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 8x + 20 = 108,11,16,"8x = 108 + 20
+8x = 128
+x = 16",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -8x = 40,-5,5,"x = 40 / 8
+x = 5",isolate_variable,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 2/5 + 2/3,16/15,4/8,(2 + 2) / (5 + 3) = 4/8,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/6 + 6/7,43/42,42/42,"Common denominator is 42
+(7 + 36) / 42 = 42/42",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 6x + 14 = 68,9,13.67,"6x = 68 + 14
+6x = 82
+x = 13.67",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: -5x = 25,-5,5,"x = 25 / 5
+x = 5",isolate_variable,sign_error,Synthetic variation with sign_error logic
+percentages,What is 75% of 40?,30,-35,40 - 75 = -35,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 2x + 6 + 6x - 2,8x + 4,9x + 4,"2x + 6x = 9x, 6 - 2 = 4",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: 3x + 12 = 33,7,15,"3x = 33 + 12
+3x = 45
+x = 45 / 3 = 15",isolate_variable,inverse_operation_error,Added 12 to 33 instead of subtracting
+percentages,What is 30% of 100?,30,30,(30 / 100) * 100 = 30,distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 3/4 + 2/5,23/20,23/20,"Common denominator is 20
+15/20 + 8/20 = 23/20",order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 3/5 + 2/3,19/15,5/8,(3 + 2) / (5 + 3) = 5/8,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 30% of 40?,12,12,(30 / 100) * 40 = 12,step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 3x + 21 = 30,3,17,"3x = 30 + 21
+3x = 51
+x = 17",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 3x + 20 = 47,9,2.04,"3x + 20 = 23x
+23x = 47
+x = 2.04",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/4 + 1/3,5/6,3/7,(2 + 1) / (4 + 3) = 3/7,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -4x = 20,-5,5,"x = 20 / 4
+x = 5",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -6x = 12,-2,2,"x = 12 / 6
+x = 2",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 25% of 80?,20,20,25/100 * 80 = 1/4 * 80 = 20,fraction_conversion,correct,Converted 25% to 1/4 and multiplied correctly
+linear_equations,Solve for x: 3x + 13 = 22,3,11.67,"3x = 22 + 13
+3x = 35
+x = 11.67",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 2x + 19 = 35,8,27,"2x = 35 + 19
+2x = 54
+x = 27",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 75% of 40?,30,3000,40 * 75 = 3000,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 5x + 8 + 5x - 1,10x + 7,17x,5 + 8 + 5 - 1 = 17x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/2 + 4/7,15/14,5/9,(1 + 4) / (2 + 7) = 5/9,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 2/5 + 2/6,11/15,4/11,(2 + 2) / (5 + 6) = 4/11,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 6x + 8 + 4x - 9,10x - 1,11x + -1,"6x + 4x = 11x, 8 - 9 = -1",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/4 + 4/7,23/28,23/28,"Common denominator is 28
+7/28 + 16/28 = 23/28",common_denominator,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 6x + 3 + 2x - 6,8x - 3,10x + -3,"6x + 2x = 10x, 3 - 6 = -3",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/4 + 3/7,19/28,4/11,(1 + 3) / (4 + 7) = 4/11,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: -4x = 12,-3,3,"x = 12 / 4
+x = 3",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 9x + 5 = 86,9,9,"9x = 86 - 5
+9x = 81
+x = 81 / 9
+x = 9",step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 2x + 3 = 11,4,2.2,"5x = 11
+x = 11 / 5 = 2.2",combine_terms,conceptual_misunderstanding,Added constant 3 into variable coefficient 2x to make 5x
+basic_algebra,Simplify: 2x + 5 + 3x - 2,5x + 3,8x,2 + 5 + 3 - 2 = 8x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/4 + 4/5,21/20,23/20,"Common denominator is 20
+(5 + 16) / 20 = 23/20",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: -4x = 24,-6,6,"x = 24 / 4
+x = 6",isolate_variable,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 3/4 + 2/5,23/20,5/9,(3 + 2) / (4 + 5) = 5/9,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 25% of 200?,50,50,(25 / 100) * 200 = 50,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: -6x = 24,-4,4,"x = 24 / 6
+x = 4",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 50% of 200?,100,150,200 - 50 = 150,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/2 + 1/3,5/6,5/6,"Common denominator is 6
+3/6 + 2/6 = 5/6",order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 40% of 60?,24,20,60 - 40 = 20,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/3 + 1/4,11/12,3/7,(2 + 1) / (3 + 4) = 3/7,cross_multiplication,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/2 + 2/4,1,3/6,(1 + 2) / (2 + 4) = 3/6,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 9x + 16 = 61,5,5.22,"9x = 61 - 16
+9x = 47
+x = 5.22",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 9 + 2x - 6,6x + 3,9x,4 + 9 + 2 - 6 = 9x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/2 + 1/4,3/4,3/4,"Common denominator is 4
+2/4 + 1/4 = 3/4",distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 4x + 1 + 6x - 3,10x - 2,8x,4 + 1 + 6 - 3 = 8x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 10% of 200?,20,190,200 - 10 = 190,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 4x + 1 + 2x - 6,6x - 5,6x + 7,Added all constants ignoring minus: 1 + 6 = 7,integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -4x = 20,-5,5,"x = 20 / 4
+x = 5",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -7x = 84,-12,12,"x = 84 / 7
+x = 12",integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 5x + 5 + 2x - 3,7x + 2,9x + 2,"5x + 2x = 9x, 5 - 3 = 2",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 9 + 6x - 6,11x + 3,11x + 3,Group like terms: (5 + 6)x + (9 - 6) = 11x + 3,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/3 + 6/7,25/21,7/10,(1 + 6) / (3 + 7) = 7/10,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 10% of 200?,20,190,200 - 10 = 190,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 20% of 60?,12,14,20/100 * 60 = 14,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 75% of 250?,187.5,187.5,(75 / 100) * 250 = 187.5,order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 3x + 9 + 6x - 6,9x + 3,9x + 15,Added all constants ignoring minus: 9 + 6 = 15,distribute_negative,sign_error,Synthetic variation with sign_error logic
+percentages,What is 10% of 100?,10,7,10/100 * 100 = 7,combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 2x + 9 + 3x - 5,5x + 4,9x,2 + 9 + 3 - 5 = 9x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 8x + 19 = 115,12,12.12,"8x = 115 - 19
+8x = 97
+x = 12.12",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 30% of 120?,36,90,120 - 30 = 90,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 2x + 5 = 15,5,10,"2x = 15 + 5
+2x = 20
+x = 10",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 2x + 6 + 5x - 7,7x - 1,6x,2 + 6 + 5 - 7 = 6x,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/3 + 3/4,13/12,13/12,"Common denominator is 12
+4/12 + 9/12 = 13/12",distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 2/3 + 4/5,22/15,6/8,(2 + 4) / (3 + 5) = 6/8,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/3 + 4/7,19/21,20/21,"Common denominator is 21
+(7 + 12) / 21 = 20/21",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 1/3 + 1/4,7/12,2/7,(1 + 1) / (3 + 4) = 2/7,direct_addition,fraction_operation_error,Added numerators and added denominators across directly
+basic_algebra,Simplify: 3x + 4 + 6x - 3,9x + 1,7x + 1,"3x + 6x = 7x, 4 - 3 = 1",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 50% of 200?,100,150,200 - 50 = 150,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 3x + 2 + 5x - 4,8x - 2,6x,3 + 2 + 5 - 4 = 6x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 9x + 15 = 87,8,8,"9x = 87 - 15
+9x = 72
+x = 72 / 9
+x = 8",step_by_step_algebra,correct,Synthetic variation with correct logic
+percentages,What is 15% of 120?,18,1800,120 * 15 = 1800,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 6x + 6 + 4x - 8,10x - 2,10x + 14,Added all constants ignoring minus: 6 + 8 = 14,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -3x = 15,-5,5,"x = 15 / 3
+x = 5",isolate_variable,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 1 + 2x - 6,8x - 5,3x,6 + 1 + 2 - 6 = 3x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/6 + 2/5,17/30,17/30,"Common denominator is 30
+5/30 + 12/30 = 17/30",order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 4x + 5 + 3x - 6,7x - 1,7x + 11,Added all constants ignoring minus: 5 + 6 = 11,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+percentages,What is 30% of 80?,24,2400,80 * 30 = 2400,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 15% of 40?,6,6,"10% is 4, 5% is 2, 4 + 2 = 6",benchmark_fractions,correct,Accurate benchmark percentage addition
+linear_equations,Solve for x: 5x + 7 = 62,11,13.8,"5x = 62 + 7
+5x = 69
+x = 13.8",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 9x + 15 = 78,7,10.33,"9x = 78 + 15
+9x = 93
+x = 10.33",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/4 + 3/5,11/10,5/9,(2 + 3) / (4 + 5) = 5/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 1/3 + 1/4,7/12,2/7,(1 + 1) / (3 + 4) = 2/7,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 8x + 25 = 65,5,11.25,"8x = 65 + 25
+8x = 90
+x = 11.25",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+percentages,What is 75% of 60?,45,4500,60 * 75 = 4500,division_rule,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 4x + 9 + 5x - 2,9x + 7,9x + 11,Added all constants ignoring minus: 9 + 2 = 11,integer_rules,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Evaluate: 2 + 3 * 4,14,20,"2 + 3 = 5, 5 * 4 = 20",left_to_right,conceptual_misunderstanding,Violated order of operations (PEMDAS) by adding before multiplying
+linear_equations,Solve for x: 8x + 3 = 51,6,6.75,"8x = 51 + 3
+8x = 54
+x = 6.75",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 2/3 divided by 3/4,8/9,6/12,(2 * 3) / (3 * 4) = 6/12 = 1/2,direct_multiplication,fraction_operation_error,Multiplied fractions straight across without inverting the divisor
+percentages,What is 10% of 40?,4,30,40 - 10 = 30,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -3x = 12,-4,4,"x = 12 / 3
+x = 4",isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 2x + 7 = 29,11,10.5,"2x = 29 - 7
+2x = 21
+x = 10.5",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 4x + 1 + 2x - 2,6x - 1,6x - 1,Group like terms: (4 + 2)x + (1 - 2) = 6x - 1,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 6/7,19/14,7/9,(1 + 6) / (2 + 7) = 7/9,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 6x + 9 + 4x - 4,10x + 5,15x,6 + 9 + 4 - 4 = 15x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 25 = 55,6,1.83,"5x + 25 = 30x
+30x = 55
+x = 1.83",pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 25% of 40?,10,14,25/100 * 40 = 14,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 2x + 1 + 3x - 8,5x - 7,-2x,2 + 1 + 3 - 8 = -2x,exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+percentages,What is 30% of 80?,24,24,(30 / 100) * 80 = 24,order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 9x + 14 = 68,6,9.11,"9x = 68 + 14
+9x = 82
+x = 9.11",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 2x + 9 + 6x - 9,8x + 0,8x + 0,Group like terms: (2 + 6)x + (9 - 9) = 8x + 0,step_by_step_algebra,correct,Synthetic variation with correct logic
+percentages,What is 20% of 80?,16,60,80 - 20 = 60,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+basic_algebra,Simplify: 6x + 8 + 4x - 1,10x + 7,10x + 9,Added all constants ignoring minus: 8 + 1 = 9,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 7x + 6 = 62,8,9.71,"7x = 62 + 6
+7x = 68
+x = 9.71",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 7x + 8 = 43,5,5.14,"7x = 43 - 8
+7x = 36
+x = 5.14",standard_algorithm,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 2x + 9 + 4x - 7,6x + 2,8x,2 + 9 + 4 - 7 = 8x,pemdas_left_to_right,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 1/2 + 1/3,5/6,2/5,(1 + 1) / (2 + 3) = 2/5,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+basic_algebra,Simplify: 4x + 6 + 6x - 7,10x - 1,10x - 1,Group like terms: (4 + 6)x + (6 - 7) = 10x - 1,distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 2x + 23 = 45,11,34,"2x = 45 + 23
+2x = 68
+x = 34",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 5x + 6 + 5x - 3,10x + 3,10x + 9,Added all constants ignoring minus: 6 + 3 = 9,integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 2x + 15 = 27,6,6.5,"2x = 27 - 15
+2x = 13
+x = 6.5",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+linear_equations,Solve for x: -2x = 22,-11,11,"x = 22 / 2
+x = 11",integer_rules,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 8x + 13 = 77,8,11.25,"8x = 77 + 13
+8x = 90
+x = 11.25",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+fractions,Evaluate: 1/2 + 3/4,5/4,6/4,"Common denominator is 4
+(2 + 3) / 4 = 6/4",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 3/5 + 3/6,11/10,6/11,(3 + 3) / (5 + 6) = 6/11,direct_subtraction,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+percentages,What is 15% of 80?,12,16,15/100 * 80 = 16,mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+percentages,What is 50% of 160?,80,8000,160 * 50 = 8000,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 30% of 100?,30,30,(30 / 100) * 100 = 30,common_denominator,correct,Synthetic variation with correct logic
+percentages,What is 75% of 40?,30,30,(75 / 100) * 40 = 30,step_by_step_algebra,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 3x + 4 + 2x - 2,5x + 2,5x + 6,Added all constants ignoring minus: 4 + 2 = 6,expanding_brackets,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 3/4 + 5/7,41/28,8/11,(3 + 5) / (4 + 7) = 8/11,straight_across,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+fractions,Evaluate: 4/5 + 2/4,13/10,13/10,"Common denominator is 20
+16/20 + 10/20 = 13/10",order_of_operations,correct,Synthetic variation with correct logic
+percentages,What is 30% of 120?,36,90,120 - 30 = 90,combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -3x = 21,-7,7,"x = 21 / 3
+x = 7",isolate_variable,sign_error,Dropped negative sign when dividing by -3
+percentages,What is 75% of 100?,75,75,(75 / 100) * 100 = 75,step_by_step_algebra,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 23 = 58,7,2.07,"5x + 23 = 28x
+28x = 58
+x = 2.07",combine_all_terms,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 2/3 + 6/7,32/21,32/21,"Common denominator is 21
+14/21 + 18/21 = 32/21",order_of_operations,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 6 = 31,5,7.4,"5x = 31 + 6
+5x = 37
+x = 7.4",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x + 7 = 37,5,7.33,"6x = 37 + 7
+6x = 44
+x = 7.33",balancing_equation,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 6x = 14,2.33,0.43,x = 6 / 14 = 0.43,cross_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 2x + 2 + 4x - 6,6x - 4,6x + 8,Added all constants ignoring minus: 2 + 6 = 8,isolate_variable,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -8x = 32,-4,4,"x = 32 / 8
+x = 4",expanding_brackets,sign_error,Synthetic variation with sign_error logic
+fractions,Evaluate: 2/3 + 3/4,17/12,17/12,"Common denominator is 12
+8/12 + 9/12 = 17/12",order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 3x + 7 + 6x - 4,9x + 3,12x,3 + 7 + 6 - 4 = 12x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+fractions,Evaluate: 3/4 + 2/5,23/20,23/20,"Common denominator is 20
+15/20 + 8/20 = 23/20",distributive_property,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 3/4,5/4,5/4,"Common denominator is 4
+2/4 + 3/4 = 5/4",order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 4x + 5 + 2x - 8,6x - 3,7x + -3,"4x + 2x = 7x, 5 - 8 = -3",scratch_calculation,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 2/3 + 2/4,7/6,4/7,(2 + 2) / (3 + 4) = 4/7,direct_addition,fraction_operation_error,Synthetic variation with fraction_operation_error logic
+linear_equations,Solve for x: 7x + 9 = 44,5,7.57,"7x = 44 + 9
+7x = 53
+x = 7.57",moving_terms,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 3x + 13 = 28,5,5,"3x = 28 - 13
+3x = 15
+x = 15 / 3
+x = 5",order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 2x + 6 + 5x - 2,7x + 4,9x + 4,"2x + 5x = 9x, 6 - 2 = 4",combining_terms,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+fractions,Evaluate: 2/6 + 6/7,25/21,25/21,"Common denominator is 42
+14/42 + 36/42 = 25/21",order_of_operations,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 3x + 9 + 4x - 4,7x + 5,7x + 13,Added all constants ignoring minus: 9 + 4 = 13,distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: -9x = 27,-3,3,"x = 27 / 9
+x = 3",distribute_negative,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 5x + 6 + 2x - 6,7x + 0,7x + 12,Added all constants ignoring minus: 6 + 6 = 12,distribute_negative,sign_error,Synthetic variation with sign_error logic
+linear_equations,Solve for x: 7x = 13,1.86,0.54,x = 7 / 13 = 0.54,reciprocal_multiply,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+percentages,What is 75% of 200?,150,15000,200 * 75 = 15000,fraction_multiplication,multiplication_division_error,Synthetic variation with multiplication_division_error logic
+basic_algebra,Simplify: 5x + 1 + 2x - 2,7x - 1,7x - 1,Group like terms: (5 + 2)x + (1 - 2) = 7x - 1,distributive_property,correct,Synthetic variation with correct logic
+basic_algebra,Simplify: 6x + 7 + 4x - 3,10x + 4,10x + 4,Group like terms: (6 + 4)x + (7 - 3) = 10x + 4,common_denominator,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 8x + 9 = 57,6,8.25,"8x = 57 + 9
+8x = 66
+x = 8.25",isolate_variable,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+linear_equations,Solve for x: 8x + 13 = 109,12,15.25,"8x = 109 + 13
+8x = 122
+x = 15.25",inverse_operations,inverse_operation_error,Synthetic variation with inverse_operation_error logic
+basic_algebra,Simplify: 6x + 7 + 3x - 9,9x - 2,9x - 2,Group like terms: (6 + 3)x + (7 - 9) = 9x - 2,order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/2 + 2/3,7/6,7/6,"Common denominator is 6
+3/6 + 4/6 = 7/6",order_of_operations,correct,Synthetic variation with correct logic
+fractions,Evaluate: 1/4 + 2/5,13/20,13/20,"Common denominator is 20
+5/20 + 8/20 = 13/20",distributive_property,correct,Synthetic variation with correct logic
+linear_equations,Solve for x: 5x + 4 = 54,10,10.4,"5x = 54 - 4
+5x = 52
+x = 10.4",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic
+basic_algebra,Simplify: 5x + 6 + 4x - 2,9x + 4,9x + 8,Added all constants ignoring minus: 6 + 2 = 8,distribute_negative,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 6x + 3 + 5x - 6,11x - 3,8x,6 + 3 + 5 - 6 = 8x,direct_subtraction,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: 5x + 25 = 85,12,2.83,"5x + 25 = 30x
+30x = 85
+x = 2.83",exponent_multiplication,conceptual_misunderstanding,Synthetic variation with conceptual_misunderstanding logic
+linear_equations,Solve for x: -8x = 48,-6,6,"x = 48 / 8
+x = 6",isolate_variable,sign_error,Synthetic variation with sign_error logic
+basic_algebra,Simplify: 3x + 5 + 5x - 8,8x - 3,9x + -3,"3x + 5x = 9x, 5 - 8 = -3",mental_math,arithmetic_calculation_error,Synthetic variation with arithmetic_calculation_error logic

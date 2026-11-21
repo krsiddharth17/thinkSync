@@ -1,0 +1,150 @@
+{
+  "model_architecture": "TF-IDF + Domain Features + Random Forest Classifier",
+  "classes": [
+    "arithmetic_calculation_error",
+    "conceptual_misunderstanding",
+    "correct",
+    "fraction_operation_error",
+    "inverse_operation_error",
+    "multiplication_division_error",
+    "sign_error"
+  ],
+  "sample_counts": {
+    "total_dataset_size": 900,
+    "training_samples": 720,
+    "test_samples": 180
+  },
+  "performance": {
+    "accuracy": 0.9556,
+    "accuracy_percent": 95.56,
+    "macro_precision": 0.9584,
+    "macro_recall": 0.961,
+    "macro_f1": 0.9579,
+    "weighted_f1": 0.9555
+  },
+  "confusion_matrix": {
+    "labels": [
+      "arithmetic_calculation_error",
+      "conceptual_misunderstanding",
+      "correct",
+      "fraction_operation_error",
+      "inverse_operation_error",
+      "multiplication_division_error",
+      "sign_error"
+    ],
+    "matrix": [
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        30,
+        0,
+        1,
+        0,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        28,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        23,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24
+      ]
+    ]
+  },
+  "per_class_metrics": {
+    "arithmetic_calculation_error": {
+      "precision": 0.9677,
+      "recall": 1.0,
+      "f1_score": 0.9836,
+      "support": 30.0
+    },
+    "conceptual_misunderstanding": {
+      "precision": 0.9677,
+      "recall": 0.8824,
+      "f1_score": 0.9231,
+      "support": 34.0
+    },
+    "correct": {
+      "precision": 1.0,
+      "recall": 0.9032,
+      "f1_score": 0.9492,
+      "support": 31.0
+    },
+    "fraction_operation_error": {
+      "precision": 0.8846,
+      "recall": 1.0,
+      "f1_score": 0.9388,
+      "support": 23.0
+    },
+    "inverse_operation_error": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 21.0
+    },
+    "multiplication_division_error": {
+      "precision": 1.0,
+      "recall": 0.9412,
+      "f1_score": 0.9697,
+      "support": 17.0
+    },
+    "sign_error": {
+      "precision": 0.8889,
+      "recall": 1.0,
+      "f1_score": 0.9412,
+      "support": 24.0
+    }
+  },
+  "feature_types": [
+    "TF-IDF n-grams (1, 2) on Question, Answer, Steps, and Approach",
+    "Domain features: step_count, has_negative, has_fraction, has_multiply, has_equal, has_percent",
+    "Behavioral features: len_answer, len_steps, exact_match"
+  ]
+}
