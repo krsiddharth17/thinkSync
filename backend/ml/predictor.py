@@ -17,6 +17,14 @@ DATASET_PATH = os.path.join(os.path.dirname(__file__), "dataset.csv")
 # Global cached model
 _cached_pipeline = None
 
+try:
+    from .train_model import engineer_features, train_and_evaluate
+except (ImportError, ValueError):
+    try:
+        from backend.ml.train_model import engineer_features, train_and_evaluate
+    except (ImportError, ValueError):
+        from train_model import engineer_features, train_and_evaluate
+
 MISCONCEPTION_METADATA = {
     "inverse_operation_error": {
         "title": "Inverse Operation Error",
@@ -72,7 +80,6 @@ def get_model():
     global _cached_pipeline
     if _cached_pipeline is None:
         if not os.path.exists(MODEL_PATH):
-            from train_model import train_and_evaluate
             pipe, _ = train_and_evaluate()
             _cached_pipeline = pipe
         else:
@@ -152,7 +159,6 @@ def predict_misconception(
         "approach": approach
     }])
     
-    from train_model import engineer_features
     df_feat = engineer_features(df_single)
     
     feature_cols = [

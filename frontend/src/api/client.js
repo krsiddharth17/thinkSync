@@ -1,4 +1,16 @@
-const API_BASE_URL = '/api';
+function getApiBaseUrl() {
+  const envUrl = import.meta.env.VITE_API_BASE_URL;
+  if (!envUrl || envUrl.trim() === '') {
+    return '/api';
+  }
+  let trimmed = envUrl.trim().replace(/\/+$/, '');
+  if (!trimmed.endsWith('/api') && !trimmed.startsWith('/')) {
+    trimmed = `${trimmed}/api`;
+  }
+  return trimmed;
+}
+
+const API_BASE_URL = getApiBaseUrl();
 
 export function getAuthToken() {
   return localStorage.getItem('thinksync_token');

@@ -5,14 +5,14 @@ from sqlalchemy.orm import Session
 from ..database import get_db
 from ..models import Topic, Question, StudentTopicMastery, User
 from ..schemas import TopicSummary, TopicDetail, QuestionResponse
-from ..auth import get_current_user
+from ..auth import get_optional_current_user
 
 router = APIRouter(prefix="/topics", tags=["Topics"])
 
 @router.get("", response_model=List[TopicSummary])
 def list_topics(
     db: Session = Depends(get_db),
-    current_user: Optional[User] = Depends(get_current_user)
+    current_user: Optional[User] = Depends(get_optional_current_user)
 ):
     topics = db.query(Topic).all()
     results = []
@@ -56,7 +56,7 @@ def list_topics(
 def get_topic_detail(
     slug: str,
     db: Session = Depends(get_db),
-    current_user: Optional[User] = Depends(get_current_user)
+    current_user: Optional[User] = Depends(get_optional_current_user)
 ):
     topic = db.query(Topic).filter(Topic.slug == slug).first()
     if not topic:

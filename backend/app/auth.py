@@ -106,6 +106,23 @@ def get_current_user(
 
     return user
 
+def get_optional_current_user(
+    auth: Optional[HTTPAuthorizationCredentials] = Depends(security),
+    db: Session = Depends(get_db)
+) -> Optional[User]:
+    if not auth:
+        return None
+    try:
+        payload = decode_access_token(auth.credentials)
+        if payload is None:
+            return None
+        user_id = payload.get("sub")
+        if user_id is None:
+            return None
+        return db.query(User).filter(User.id == int(user_id)).first()
+    except Exception:
+        return None
+
 def get_current_teacher(
     current_user: User = Depends(get_current_user)
 ) -> User:

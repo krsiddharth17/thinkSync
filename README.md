@@ -1,11 +1,14 @@
 # thinkSync AI
 > **"Don't Just Know You're Wrong. Understand Why."**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online%20(HTTPS)-success?style=for-the-badge&logo=cloudflare)](https://topics-suffered-earrings-redhead.trycloudflare.com)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61DAFB.svg?logo=react&logoColor=black)](https://react.dev/)
 [![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn%20(95.6%25%20Acc)-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Gemini](https://img.shields.io/badge/AI%20Tutor-Gemini%20API-4285F4.svg?logo=google&logoColor=white)](https://ai.google.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+🌐 **Live Deployment Link:** [https://topics-suffered-earrings-redhead.trycloudflare.com](https://topics-suffered-earrings-redhead.trycloudflare.com)
 
 ---
 

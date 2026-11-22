@@ -10,12 +10,14 @@ from ..auth import get_current_user
 from ..services.tutor_service import generate_ai_tutor_feedback, generate_step_hint
 from ..services.adaptive_engine import update_student_mastery_profile
 
-# Add ml folder to sys.path
-ml_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "ml"))
-if ml_dir not in sys.path:
-    sys.path.insert(0, ml_dir)
-
-from predictor import predict_misconception, is_exact_match, MISCONCEPTION_METADATA
+# Import ML Predictor safely across package and local contexts
+try:
+    from backend.ml.predictor import predict_misconception, is_exact_match, MISCONCEPTION_METADATA
+except (ImportError, ValueError):
+    ml_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "ml"))
+    if ml_dir not in sys.path:
+        sys.path.insert(0, ml_dir)
+    from predictor import predict_misconception, is_exact_match, MISCONCEPTION_METADATA
 
 router = APIRouter(prefix="/assessment", tags=["Assessment & Diagnosis"])
 

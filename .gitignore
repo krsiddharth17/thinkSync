@@ -3,8 +3,9 @@ node_modules/
 .venv/
 venv/
 **/__pycache__/
+*.pyc
 .env
-.env.*
-!.env.example
-dist/
-build/
+.env.local
+.env.*.local
+cloudflared.exe
+PUBLIC_URL.txt

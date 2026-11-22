@@ -28,10 +28,10 @@ app = FastAPI(
     description="thinkSync AI: Intelligent Educational Platform that understands WHERE and WHY students get stuck using Machine Learning and AI Tutoring."
 )
 
-# Enable CORS for Vite frontend
+# Enable CORS for Vite frontend and deployed frontend domains
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origin_regex=r"https?://.*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -55,6 +55,41 @@ def health_check():
         "gemini_api_configured": bool(settings.GEMINI_API_KEY)
     }
 
+# Mount Frontend Static Assets & SPA Fallback
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+frontend_dist = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "dist"))
+
+@app.get("/", include_in_schema=False)
+def root():
+    index_html = os.path.join(frontend_dist, "index.html")
+    if os.path.exists(index_html):
+        return FileResponse(index_html)
+    return {
+        "app": settings.PROJECT_NAME,
+        "status": "online",
+        "docs": "/docs",
+        "health": "/api/health",
+        "version": settings.VERSION
+    }
+
+if os.path.exists(frontend_dist):
+    assets_dir = os.path.join(frontend_dist, "assets")
+    if os.path.exists(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def serve_frontend_spa(full_path: str):
+        file_path = os.path.join(frontend_dist, full_path)
+        if full_path and os.path.isfile(file_path):
+            return FileResponse(file_path)
+        index_html = os.path.join(frontend_dist, "index.html")
+        if os.path.exists(index_html):
+            return FileResponse(index_html)
+        return {"error": "Not found", "path": full_path}
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)

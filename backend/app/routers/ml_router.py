@@ -8,7 +8,10 @@ ml_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "ml
 if ml_dir not in sys.path:
     sys.path.insert(0, ml_dir)
 
-from predictor import predict_misconception
+try:
+    from backend.ml.predictor import predict_misconception
+except (ImportError, ValueError):
+    from predictor import predict_misconception
 
 router = APIRouter(prefix="/ml", tags=["Machine Learning Engine"])
 
