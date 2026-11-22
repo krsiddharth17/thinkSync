@@ -1,17 +1,49 @@
 import os
+import sys
+
+# Ensure sys.path contains root, backend, and backend/app
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+BACKEND_DIR = os.path.dirname(CURRENT_DIR)
+ROOT_DIR = os.path.dirname(BACKEND_DIR)
+
+for p in [CURRENT_DIR, BACKEND_DIR, ROOT_DIR]:
+    if p not in sys.path:
+        sys.path.insert(0, p)
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .config import settings
-from .database import engine, Base, SessionLocal
-from .seed_data import seed_database
 
-# Routers
-from .routers.auth_router import router as auth_router
-from .routers.topics_router import router as topics_router
-from .routers.assessment_router import router as assessment_router
-from .routers.student_router import router as student_router
-from .routers.teacher_router import router as teacher_router
-from .routers.ml_router import router as ml_router
+try:
+    from .config import settings
+    from .database import engine, Base, SessionLocal
+    from .seed_data import seed_database
+    from .routers.auth_router import router as auth_router
+    from .routers.topics_router import router as topics_router
+    from .routers.assessment_router import router as assessment_router
+    from .routers.student_router import router as student_router
+    from .routers.teacher_router import router as teacher_router
+    from .routers.ml_router import router as ml_router
+except ImportError:
+    try:
+        from app.config import settings
+        from app.database import engine, Base, SessionLocal
+        from app.seed_data import seed_database
+        from app.routers.auth_router import router as auth_router
+        from app.routers.topics_router import router as topics_router
+        from app.routers.assessment_router import router as assessment_router
+        from app.routers.student_router import router as student_router
+        from app.routers.teacher_router import router as teacher_router
+        from app.routers.ml_router import router as ml_router
+    except ImportError:
+        from backend.app.config import settings
+        from backend.app.database import engine, Base, SessionLocal
+        from backend.app.seed_data import seed_database
+        from backend.app.routers.auth_router import router as auth_router
+        from backend.app.routers.topics_router import router as topics_router
+        from backend.app.routers.assessment_router import router as assessment_router
+        from backend.app.routers.student_router import router as student_router
+        from backend.app.routers.teacher_router import router as teacher_router
+        from backend.app.routers.ml_router import router as ml_router
 
 # Direct startup initialization (completely reliable across all Python versions)
 print("[Startup] Ensuring thinkSync AI Database & Tables...")
